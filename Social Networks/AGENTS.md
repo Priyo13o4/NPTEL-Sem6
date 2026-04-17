@@ -53,7 +53,7 @@ Social Networks/
    - For each question:
      - Include point value (e.g., "1 point")
      - Quote the full question
-     - List all options clearly (A, B, C, D) without checkboxes or indicators
+     - List all options clearly with checkboxes.
      - Include **Answer:** field showing the correct letter
      - Include **Answer Explanation** that:
        - Directly references the concept being tested
