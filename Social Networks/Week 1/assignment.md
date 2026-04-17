@@ -21,38 +21,42 @@ The IT team discovered that entire groups of students were **cut off** from the 
 ### Q1 (1 point)
 **The communication system described is most appropriately represented as:**
 
-- A) A table of contacts
-- B) A graph of users and connections
-- C) A loop-based structure
-- D) A sorted list
+- [ ] A) A table of contacts
+- [ ] B) A graph of users and connections
+- [ ] C) A loop-based structure
+- [ ] D) A sorted list
 
 **Answer:** B
 
 **Answer Explanation**: The system has users (nodes) and connections between them (edges), which is the definition of a graph. The notice spreads through these connections, making it a network problem.
+
+**Related Topic**: [Nodes and Edges](notes.md#nodes-and-edges)
 
 ---
 
 ### Q2 (1 point)
 **The main reason some students never received the notice was that:**
 
-- A) The message was sent too late
-- B) The coordinators did not forward it
-- C) There were no communication paths to them
-- D) The system deleted messages
+- [ ] A) The message was sent too late
+- [ ] B) The coordinators did not forward it
+- [ ] C) There were no communication paths to them
+- [ ] D) The system deleted messages
 
 **Answer:** C
 
 **Answer Explanation**: The IT team discovered that entire groups were **disconnected** — no chain of contacts linked them to the coordinators. This is the definition of a **disconnected graph** where certain nodes cannot be reached from the source.
+
+**Related Topic**: [Network Connectivity and Paths](notes.md#network-connectivity-and-paths)
 
 ---
 
 ### Q3 (1 point)
 **Ignoring self-messaging and duplicate connections makes the structure:**
 
-- A) Random
-- B) Directed
-- C) Simple
-- D) Cyclic
+- [ ] A) Random
+- [ ] B) Directed
+- [ ] C) Simple
+- [ ] D) Cyclic
 
 **Answer:** C
 
@@ -62,33 +66,39 @@ The IT team discovered that entire groups of students were **cut off** from the 
 
 The system satisfies both rules, making it a simple graph.
 
+**Related Topic**: [Simple Graphs vs. Multi-graphs](notes.md#simple-graphs-vs-multi-graphs)
+
 ---
 
 ### Q4 (1 point)
 **Tracing the spread of the message step by step from the hostel office is best described as:**
 
-- A) Sorting users
-- B) Searching through connections
-- C) Counting messages
-- D) Reversing data
+- [ ] A) Sorting users
+- [ ] B) Searching through connections
+- [ ] C) Counting messages
+- [ ] D) Reversing data
 
 **Answer:** B
 
 **Answer Explanation**: The notice spreads by following the chain of connections from user to user, which is a **graph traversal** or **search** operation. Algorithms like **Breadth-First Search (BFS)** model this process.
+
+**Related Topic**: [Graph Traversal (Information Flow)](notes.md#graph-traversal-information-flow)
 
 ---
 
 ### Q5 (1 point)
 **If every student could directly message every other student, the notice would:**
 
-- A) Still spread slowly
-- B) Reach only coordinators
-- C) Reach everyone immediately
-- D) Fail due to overload
+- [ ] A) Still spread slowly
+- [ ] B) Reach only coordinators
+- [ ] C) Reach everyone immediately
+- [ ] D) Fail due to overload
 
 **Answer:** C
 
 **Answer Explanation**: This describes a **complete graph** where every node connects directly to every other node. In a complete graph, any message reaches all nodes in one hop, ensuring instant global communication.
+
+**Related Topic**: [Network Density (Complete Graphs)](notes.md#network-density-complete-graphs)
 
 ---
 
