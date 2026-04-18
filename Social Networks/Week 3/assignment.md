@@ -413,7 +413,7 @@ Sarah's data science team at TechConnect analyzed a platform with 5,000 active u
 
 **Answer Explanation**: Option A is correct (brute force is optimal but exponential complexity makes it infeasible). Option B is correct (betweenness calculation is O(n³), done repeatedly—this is the bottleneck). Option E is correct (subgraph methods can efficiently evaluate community modularity). Option C is false (resolution parameter increases fine-grainedness; higher resolution finds more communities, not fewer). Option D is false (simultaneous removal ignores rerouting of traffic; iterative recalculation is necessary for accuracy).
 
-**Related Topic**: [Community Detection: The Girvan-Newman Algorithm](notes.md#community-detection-the-girvan-newman-algorithm)
+**Related Topic**: [Community Detection: The Girvan-Newman Algorithm](notes.md#5-community-detection-the-girvan-newman-algorithm)
 
 ---
 
@@ -424,7 +424,7 @@ Sarah's data science team at TechConnect analyzed a platform with 5,000 active u
 
 **Answer Explanation**: Intra-community edges (edges within communities) = $8 + 15 = 23$. Inter-community edges (edges between communities) = $3$. Ratio = $\frac{23}{3} = 7.666...$, which rounds to **7.67**. This ratio indicates strong community structure (high internal density relative to inter-community bridges), making these communities well-defined and distinct.
 
-**Related Topic**: [Community Detection: The Girvan-Newman Algorithm](notes.md#community-detection-the-girvan-newman-algorithm)
+**Related Topic**: [Community Detection: The Girvan-Newman Algorithm](notes.md#5-community-detection-the-girvan-newman-algorithm)
 
 ---
 

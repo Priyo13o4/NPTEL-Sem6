@@ -28,7 +28,7 @@ Pilot trials revealed many requests reached the intended alumnus in fewer than 7
 
 **Answer Explanation:** The alumni network succeeds through the combination of two properties discovered by Milgram: the existence of short paths globally, and the ability of local navigators (alumni forwarding requests) to discover them without a central directory. Option A is false—the system explicitly avoids centralization. Option C is false—most alumni know relatively few people. Option D is false—as discussed in Kleinberg's model, uniformly random connections would cause requests to overshoot targets. The system works precisely because individual alumni can make local decisions (forwarding to someone they judge closer to the target in discipline, geography, or career field) that collectively navigate the small-world structure. This directly tests the combined insights from notes sections **"Milgram's Experiment: The Small World Phenomenon"** and **"The Decentralized Search Paradox"**.
 
-**Related Topic:** [Milgram's Experiment: The Small World Phenomenon](notes.md#milgrams-experiment-the-small-world-phenomenon)
+**Related Topic:** [Milgram's Experiment: The Small World Phenomenon](notes.md#1-milgrams-experiment-the-small-world-phenomenon)
 
 ---
 
@@ -74,7 +74,7 @@ Pilot trials revealed many requests reached the intended alumnus in fewer than 7
 
 **Explanation:** A request chain consists of: 1 sender + 6 intermediaries + 1 receiver = 8 total individuals. This simple counting problem reinforces Milgram's "six degrees of separation" concept. The six degrees refer to the number of **hops** (intermediaries), not the total number of people involved. This calculation connects directly to notes section **"Milgram's Experiment"**, which discusses the six-step average path length found in Milgram's packages.
 
-**Related Topic:** [Milgram's Experiment: The Small World Phenomenon](notes.md#milgrams-experiment-the-small-world-phenomenon)
+**Related Topic:** [Milgram's Experiment: The Small World Phenomenon](notes.md#1-milgrams-experiment-the-small-world-phenomenon)
 
 ---
 

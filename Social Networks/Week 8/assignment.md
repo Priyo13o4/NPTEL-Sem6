@@ -73,7 +73,7 @@ The analytics team experimented with the **HITS algorithm**: users who followed 
 
 **Answer Explanation:** PageRank's key advantage is that it models the entire network simultaneously through **matrix multiplication**. The transition matrix $M$ encodes all edges; when you multiply $M \cdot v$ iteratively, you're simulating a random walk that can travel anywhere in the network. This global perspective ensures every node gets evaluated based on the entire graph structure, not just local clusters. PageRank considers both direct links and paths multiple hops away, making it resilient to local noise. Option A is incorrect—PageRank fundamentally relies on matrix operations for efficiency. Option B is the opposite; PageRank uses the entire graph, not just local neighborhoods. Option D is incorrect—PageRank must handle dangling nodes properly (though not ignore them).
 
-**Related Topic**: [PageRank as Iterative Matrix Multiplication](notes.md#pagerank-as-iterative-matrix-multiplication)
+**Related Topic**: [PageRank as Iterative Matrix Multiplication](notes.md#3-pagerank-as-iterative-matrix-multiplication)
 
 ---
 

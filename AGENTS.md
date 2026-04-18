@@ -117,6 +117,7 @@ After creating/updating any week’s `notes.md` / `assignment.md`, do a quick sa
 1. **Audit**
 	- Coverage: every assignment concept exists as a notes section.
 	- Links: every question has `**Related Topic**` links, and each anchor exists.
+	- Markdown rendering syntax: headings/anchors align, tables render, lists/checklists are valid, math delimiters render correctly, and no duplicated option labels like `A) A)`.
 	- Consistency: answers match explanations; formulas/counts are consistent.
 	- Summary: Answer Key table matches the question answers.
 2. **Patch**

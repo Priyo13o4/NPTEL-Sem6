@@ -34,7 +34,7 @@ Dr. Chen observed the **"rich get richer"** phenomenon in infection networks —
 
 **Answer Explanation:** The expected number of secondary infections is determined by the **Basic Reproductive Number** ($R_0$), defined as $R_0 = p \times k$ (transmission probability × average number of contacts). For Campus A: $12 \times 0.25 = 3.00$. For Campus B: $8 \times 0.25 = 2.00$. For Campus C: $4 \times 0.25 = 1.00$. Campus A has the highest $R_0$, meaning an infected individual on that campus infects 3 others on average compared to 2 and 1 for the other campuses. This directly tests the fundamental epidemiological concept from notes section **"The Basic Reproductive Number ($R_0$)"**.
 
-**Related Topic:** [The Basic Reproductive Number ($R_0$)](notes.md#the-basic-reproductive-number-r_0)
+**Related Topic:** [The Basic Reproductive Number ($R_0$)](notes.md#4-the-basic-reproductive-number-r0)
 
 ---
 
@@ -51,7 +51,7 @@ Dr. Chen observed the **"rich get richer"** phenomenon in infection networks —
 
 **Answer Explanation:** The 80/20 rule (Pareto Principle) observed in disease transmission is a direct manifestation of **power-law distributions**, the foundational concept from Week 9. Zipf's Law states that the most frequent word in English appears twice as often as the second-most frequent, three times as often as the third, etc. This creates exactly the 80/20 split: a tiny fraction of words (like "the," "and," "a") account for 80% of word frequency in any text, while the remaining 20% of unique words account for only 20% of occurrences. Similarly, in infection networks with power-law degree distributions, super-spreaders (high-degree nodes) infect 80% of secondary cases while 80% of infected individuals are peripheral nodes infecting only 20% total. This concept relates directly to notes section **"The Long Tail: The Other Half of Power Law Distributions"**.
 
-**Related Topic:** [The Long Tail: The Other Half of Power Law Distributions](notes.md#the-long-tail-the-other-half-of-power-law-distributions)
+**Related Topic:** [The Long Tail: The Other Half of Power Law Distributions](notes.md#1-the-long-tail-the-other-half-of-power-law-distributions)
 
 ---
 
@@ -68,7 +68,7 @@ Dr. Chen observed the **"rich get richer"** phenomenon in infection networks —
 
 **Answer Explanation:** Disease spread is a **simple contagion** requiring only physical proximity and biological chance (coin flip based on transmission probability). No conscious deliberation occurs; if you encounter an infected person and $R = 0.25$, there's a 25% random chance you contract it. This is purely stochastic (random). Idea spreading, by contrast, is a **complex contagion** requiring conscious adoption decisions, threshold effects (you need to see multiple friends adopting before you do), and social payoff evaluation. Option B is false—identifying disease origins via contact tracing is often difficult, especially with asymptomatic carriers. Option D is false—they follow fundamentally different dynamics due to the conscious choice requirement in idea adoption. This distinction is covered in notes section **"SIR Model: Susceptible → Infected → Removed/Recovered"** and related discussion of network effects.
 
-**Related Topic:** [SIR Model: Susceptible → Infected → Removed/Recovered](notes.md#sir-model-susceptible--infected--removedrecovered)
+**Related Topic:** [SIR Model: Susceptible → Infected → Removed/Recovered](notes.md#2-sir-model-susceptible-infected-removedrecovered)
 
 ---
 
@@ -80,7 +80,7 @@ Dr. Chen observed the **"rich get richer"** phenomenon in infection networks —
 
 **Explanation:** The expected number of secondary infections is the **Basic Reproductive Number** ($R_0 = p \times k$). Under the new conditions: $R_0 = 6 \times 0.20 = 1.2$. Originally, Campus A had $R_0 = 3.0$. This intervention (reducing contacts and improving hygiene) decreased $R_0$ from 3.0 to 1.2. While this is a 60% reduction, note that $R_0 = 1.2 > 1$, meaning the disease still exceeds the critical epidemic threshold. The outbreak will continue to spread, albeit slower than before. To control the outbreak, interventions would need to bring $R_0$ below 1.0. This calculation demonstrates the concept from notes section **"The Basic Reproductive Number ($R_0$)"** and how interventions target reducing either $k$ (social distancing) or $p$ (masks/hygiene).
 
-**Related Topic:** [The Basic Reproductive Number ($R_0$)](notes.md#the-basic-reproductive-number-r_0)
+**Related Topic:** [The Basic Reproductive Number ($R_0$)](notes.md#4-the-basic-reproductive-number-r0)
 
 ---
 
@@ -97,7 +97,7 @@ Dr. Chen observed the **"rich get richer"** phenomenon in infection networks —
 
 **Answer Explanation:** This scenario tests understanding of how **power-law dynamics amplify initial random fluctuations** in social cascades. On Day 1, if Campus A randomly has 3 more mask-wearers than Campus B (despite identical starting conditions), the "rich-get-richer" phenomenon amplifies this tiny advantage. People on Campus A observe higher adoption counts (visibility of adoption—C), which triggers cascading adoption via threshold effects and social proof. The small initial random variation (B) becomes magnified through preferential attachment dynamics (A), causing different equilibria on different campuses. Option D is false because individual preferences are identical across campuses; the divergence stems from network topology effects, not preference differences. This connects to notes section **"The Long Tail"** and understanding how network structure drives emergent group behavior.
 
-**Related Topic:** [The Long Tail: The Other Half of Power Law Distributions](notes.md#the-long-tail-the-other-half-of-power-law-distributions)
+**Related Topic:** [The Long Tail: The Other Half of Power Law Distributions](notes.md#1-the-long-tail-the-other-half-of-power-law-distributions)
 
 ---
 
@@ -120,7 +120,7 @@ Riverside Elementary School had 450 students with only **72% vaccination rate**.
 
 **Answer Explanation:** First, calculate $R_0$: $R_0 = k \times p = 12 \times 0.90 = 10.8$. This is an extremely high reproductive number, indicating measles' extreme contagiousness (explaining why it was so difficult to control before vaccines). Next, apply the branching process formula. The expected number of infected individuals at generation $n$ is $(R_0)^n$. For generation 3: $(10.8)^3 = 10.8 \times 10.8 \times 10.8 = 1,259.712 \approx 1,260$. This explosive growth (from 1 index case to 1,260 cases in three transmission cycles) demonstrates why measles control is critical. Without intervention, a single unvaccinated student returning to a susceptible population can infect over 1,000 people. This directly tests concepts from notes sections **"The Basic Reproductive Number ($R_0$)"** and **"Branching Processes: Modeling Cascades in Networks"**.
 
-**Related Topic:** [Branching Processes: Modeling Cascades in Networks](notes.md#branching-processes-modeling-cascades-in-networks)
+**Related Topic:** [Branching Processes: Modeling Cascades in Networks](notes.md#5-branching-processes-modeling-cascades-in-networks)
 
 ---
 
@@ -132,7 +132,7 @@ Riverside Elementary School had 450 students with only **72% vaccination rate**.
 
 **Explanation:** The new $R_0$ is calculated as: $R_0 = k \times p = 2 \times 0.90 = 1.8$. The isolation policy reduced average contacts from 12 to 2 (from classroom interactions to household contacts only), dramatically lowering transmission potential. However, $R_0 = 1.8 > 1$, meaning the disease still exceeds the epidemic threshold. While the outbreak rate is now 6 times slower than the pre-intervention scenario (1.8 vs 10.8), the disease continues spreading. To truly control the outbreak, $R_0$ must drop below 1.0—which would require either isolating all contacts (k=0, impossible) or dramatically improving hygiene/vaccination to reduce $p$. This demonstrates from notes section **"The Basic Reproductive Number ($R_0$)"** how interventions reduce but may not eliminate transmission.
 
-**Related Topic:** [The Basic Reproductive Number ($R_0$)](notes.md#the-basic-reproductive-number-r_0)
+**Related Topic:** [The Basic Reproductive Number ($R_0$)](notes.md#4-the-basic-reproductive-number-r0)
 
 ---
 
@@ -149,7 +149,7 @@ Riverside Elementary School had 450 students with only **72% vaccination rate**.
 
 **Answer Explanation:** Since $R_0 = 1.8 > 1$ after intervention, statement A is correct—we reduced $R_0$ from 10.8 to 1.8 (major reduction), but still haven't crossed the critical threshold of 1.0. Statement B is false: the disease will NOT definitely die out. In branching processes, when $R_0 > 1$, there's a positive probability of indefinite survival. Statement C is misleading—expected infections actually *increase* across generations (each Gen follows $(1.8)^n$, which is exponentially growing), though the growth rate is slower than the pre-intervention rate. Statement D is correct: even though $R_0 > 1$, there's a small probability the outbreak dies by sheer random chance in early generations. However, if it survives initial generations, exponential growth becomes virtually certain. This tests understanding of branching process extinction probabilities from notes section **"Branching Processes: Modeling Cascades in Networks"** and the distinction between expected behavior and possible outcomes.
 
-**Related Topic:** [Branching Processes: Modeling Cascades in Networks](notes.md#branching-processes-modeling-cascades-in-networks)
+**Related Topic:** [Branching Processes: Modeling Cascades in Networks](notes.md#5-branching-processes-modeling-cascades-in-networks)
 
 ---
 
@@ -166,7 +166,7 @@ Riverside Elementary School had 450 students with only **72% vaccination rate**.
 
 **Answer Explanation:** The defining distinction between SIR and SIS models is **whether infection confers immunity**. SIR stands for Susceptible → Infected → **Removed/Recovered**, meaning once a person recovers, they are permanently immune and cannot be re-infected. SIS stands for Susceptible → Infected → **Susceptible** again, meaning no immunity—people recover and immediately return to the susceptible pool. Measles grants lifelong immunity (you catch it once as a child, recover, and never catch it again). This removal from the susceptible pool is the definition of the SIR model. Option A (infectious period duration) doesn't determine the model type—SIR and SIS apply regardless of whether Ti is 8 days, 14 days, or 2 days. Option C (high transmission probability) is a property of measles, but doesn't define SIR vs SIS. Option D is incorrect—measles spreads through arbitrary contact networks, not only hierarchies. This tests foundational understanding from notes sections **"SIR Model: Susceptible → Infected → Removed/Recovered"** and **"SIS Model: Susceptible → Infected → Susceptible"**.
 
-**Related Topic:** [SIR Model: Susceptible → Infected → Removed/Recovered](notes.md#sir-model-susceptible--infected--removedrecovered)
+**Related Topic:** [SIR Model: Susceptible → Infected → Removed/Recovered](notes.md#2-sir-model-susceptible-infected-removedrecovered)
 
 ---
 
@@ -191,7 +191,7 @@ For branching process structure:
 
 Option D is correct because branching processes have a subtle property: even with $R_0 = 3.0 > 1$, extinction is possible (though increasingly unlikely). The disease might randomly fail to transmit on early contacts, causing the chain to die out. As generations progress, extinction becomes exponentially less likely, but never impossible. This tests the distinction between deterministic expected values and stochastic extinction probability from notes section **"Branching Processes: Modeling Cascades in Networks"**.
 
-**Related Topic:** [Branching Processes: Modeling Cascades in Networks](notes.md#branching-processes-modeling-cascades-in-networks)
+**Related Topic:** [Branching Processes: Modeling Cascades in Networks](notes.md#5-branching-processes-modeling-cascades-in-networks)
 
 ---
 
@@ -218,7 +218,7 @@ $q^*$ = probability campaign reaches unlimited users = fixed point of $f(x) = x$
 
 **Answer Explanation:** The **Virality Coefficient** is mathematically equivalent to $R_0$ in epidemiology: $V_0 = p \times k = 0.28 \times 5 = 1.40$. This value exceeds the critical threshold of 1.0, indicating the campaign has potential for exponential growth. Each adopter is expected to influence 1.4 additional adopters, creating a cascading effect. When $V_0 > 1$, the campaign crosses the epidemic threshold and will likely achieve viral spread, reaching a substantial fraction of the user base (though not necessarily every user—some adopters may lack receptive connections). This test directly relates to notes section **"Percolation Theory: Spatial Geometry of Epidemics"**, where we learn that the virality coefficient determines viral vs. non-viral outcomes, just as $R_0$ determines epidemic vs. endemic dynamics.
 
-**Related Topic:** [Percolation Theory: Spatial Geometry of Epidemics](notes.md#percolation-theory-spatial-geometry-of-epidemics)
+**Related Topic:** [Percolation Theory: Spatial Geometry of Epidemics](notes.md#6-percolation-theory-spatial-geometry-of-epidemics)
 
 ---
 
@@ -235,7 +235,7 @@ $q^*$ = probability campaign reaches unlimited users = fixed point of $f(x) = x$
 
 **Answer Explanation:** Percolation theory is a clever mathematical shortcut that trades complexity. Before the campaign starts, imagine flipping a weighted coin for each of a user's 5 connections: with probability $p = 0.28$, the connection is marked "receptive" (coin landed heads); with probability $1-p = 0.72$, it's marked "unreceptive" (coin landed tails). This pre-randomization happens once per edge, making statement A correct. Instead of simulating the campaign day-by-day (temporal dynamics), we analyze the frozen random configuration geometrically (spatial analysis)—statement B is correct. Option C is wrong: receptive channels indicate *potential* transmission, but don't guarantee success. Actual transmission follows probabilistic rules dependent on network structure. Option D is false: percolation is an approximation. It's not perfectly identical to temporal models, though it yields similar statistical results for large networks. This tests conceptual understanding from notes section **"Percolation Theory: Spatial Geometry of Epidemics"**.
 
-**Related Topic:** [Percolation Theory: Spatial Geometry of Epidemics](notes.md#percolation-theory-spatial-geometry-of-epidemics)
+**Related Topic:** [Percolation Theory: Spatial Geometry of Epidemics](notes.md#6-percolation-theory-spatial-geometry-of-epidemics)
 
 ---
 
@@ -247,7 +247,7 @@ $q^*$ = probability campaign reaches unlimited users = fixed point of $f(x) = x$
 
 **Explanation:** The new virality coefficient is: $V_0 = p \times k = 0.32 \times 5 = 1.60$. Increasing sharing probability from 0.28 to 0.32 (a modest 14% improvement) increases virality coefficient from 1.40 to 1.60. While both exceed the threshold of 1.0, the higher $V_0 = 1.60$ indicates faster cascading growth. In branching process terms, each adopter now influences 1.6 additional adopters instead of 1.4—this amplifies $(1.6)^n$ vs. $(1.4)^n$ growth across generations. This simple calculation demonstrates from notes section **"Percolation Theory: Spatial Geometry of Epidemics"** how small improvements in sharing probability directly accelerate viral dynamics.
 
-**Related Topic:** [Percolation Theory: Spatial Geometry of Epidemics](notes.md#percolation-theory-spatial-geometry-of-epidemics)
+**Related Topic:** [Percolation Theory: Spatial Geometry of Epidemics](notes.md#6-percolation-theory-spatial-geometry-of-epidemics)
 
 ---
 
@@ -271,7 +271,7 @@ $$f'(0) = pk(1-0)^{k-1} = pk = V_0$$
 
 So $f'(0) = 5 \times 0.28 = 1.40 = V_0$. In the context of branching processes, the generating function's first derivative at zero represents the expected number of "offspring" (secondary adopters) per node. This is precisely the virality coefficient. This mathematical property is fundamental to understanding fixed-point analysis in percolation and branching processes, covered in notes section **"Percolation Theory: Spatial Geometry of Epidemics"**.
 
-**Related Topic:** [Percolation Theory: Spatial Geometry of Epidemics](notes.md#percolation-theory-spatial-geometry-of-epidemics)
+**Related Topic:** [Percolation Theory: Spatial Geometry of Epidemics](notes.md#6-percolation-theory-spatial-geometry-of-epidemics)
 
 ---
 
@@ -298,7 +298,7 @@ So $f'(0) = 5 \times 0.28 = 1.40 = V_0$. In the context of branching processes, 
 
 These concepts are central to notes section **"Percolation Theory: Spatial Geometry of Epidemics"** and the mathematical analysis of cascade survival.
 
-**Related Topic:** [Percolation Theory: Spatial Geometry of Epidemics](notes.md#percolation-theory-spatial-geometry-of-epidemics)
+**Related Topic:** [Percolation Theory: Spatial Geometry of Epidemics](notes.md#6-percolation-theory-spatial-geometry-of-epidemics)
 
 ---
 

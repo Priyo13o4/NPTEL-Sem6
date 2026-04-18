@@ -123,7 +123,7 @@ InnovateCorp has **30 employees** in a complete social network (**450 total rela
 
 **Answer Explanation**: (A) is correct—David−Emma are now friends because they share enmity toward Frank (+ − − is stable). (B) is incorrect—three negatives (− − −) is **unstable** (odd number of negatives); any two would ally. (C) is correct—flipping negatives to positives is a valid evolution mechanism. (D) is correct—**Harary's Balance Theorem** guarantees two possible endpoints: one unified group or two factions.
 
-**Related Topic**: [Harary's Balance Theorem (The Grand Conclusion)](notes.md#harays-balance-theorem-the-grand-conclusion)
+**Related Topic**: [Harary's Balance Theorem (The Grand Conclusion)](notes.md#hararys-balance-theorem-the-grand-conclusion)
 
 ---
 
@@ -150,7 +150,7 @@ InnovateCorp has **30 employees** in a complete social network (**450 total rela
 
 **Answer Explanation**: Adding one negative edge breaks the "utopia" (all positive). This creates unstable triads that must be resolved. As the network evolves through edge flips, it must reach a stable configuration. By **Harary's Balance Theorem**, the only stable states are: (1) all positive (utopia, unlikely after cascade), or (2) two factions. The outcome depends on which edges get flipped, but the endpoint is guaranteed to be stable.
 
-**Related Topic**: [Harary's Balance Theorem (The Grand Conclusion)](notes.md#harays-balance-theorem-the-grand-conclusion)
+**Related Topic**: [Harary's Balance Theorem (The Grand Conclusion)](notes.md#hararys-balance-theorem-the-grand-conclusion)
 
 ---
 

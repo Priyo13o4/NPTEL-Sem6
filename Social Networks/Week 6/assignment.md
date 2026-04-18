@@ -48,7 +48,7 @@ Key insight: 10 endorsements from selective mega-influencers outweigh 500 endors
 
 **Answer Explanation:** This question highlights the fundamental flaw in DegreeRank (follower counts). Creator A endorses 500 people, so their influence points are fractured into tiny fractions distributed thinly across many recipients (A is correct). Creator B selectively endorses only 10 people and receives incoming endorsements from top-tier influencers, making their endorsements incredibly valuable and potentially boosting their overall rank above Creator A despite fewer followers (B and D are correct). Option C is false because PageRank specifically overrides raw follower counts by introducing recursive authority weighting—a key insight of the PageRank algorithm.
 
-**Related Topic**: [Implementation Method 1: Points Distribution](notes.md#implementation-method-1-points-distribution)
+**Related Topic**: [Implementation Method 1: Points Distribution](notes.md#2-implementation-method-1-points-distribution-the-coin-game)
 
 ---
 
@@ -75,7 +75,7 @@ Key insight: 10 endorsements from selective mega-influencers outweigh 500 endors
 
 **Answer Explanation:** This is a straightforward percentage calculation based on the random walk simulation. The fraction of visits to Jordan is $3500 / 100000 = 0.035$, which converts to a percentage: $0.035 \times 100 = 3.5\%$. In the random walk implementation of PageRank, the proportion of visits a node receives is directly proportional to its PageRank score.
 
-**Related Topic**: [Implementation Method 2: The Random Walk](notes.md#implementation-method-2-the-random-walk)
+**Related Topic**: [Implementation Method 2: The Random Walk](notes.md#3-implementation-method-2-the-random-walk-the-drunk-surfer)
 
 ---
 
@@ -139,7 +139,7 @@ Every year, millions attempt to predict NCAA March Madness outcomes. Traditional
 
 **Answer Explanation:** **(A)** is correct—damping factors control the balance between direct wins and global influence redistribution. Lower damping (0.5) emphasizes direct connections; higher damping (0.85-0.90) emphasizes global structure. Different values fundamentally alter ranking equilibria. **(B)** is correct—PageRank sees only the directed graph structure (wins/losses); it cannot perceive real-world context like player injuries, team momentum, or coaching changes. **(C)** is correct—teams in stronger conferences play more highly-ranked opponents, so they naturally receive PageRank from higher-authority nodes, inflating their rankings. This creates a feedback loop where conference strength compounds. Option **(D)** is incorrect; the basic PageRank algorithm doesn't require manual weighting—it uses binary edges. (Advanced versions might weight edges by margin of victory, but the question asks about legitimate challenges, not optional enhancements.)
 
-**Related Topic**: [The Damping Factor & Teleportation Solution](notes.md#the-damping-factor--teleportation-solution)
+**Related Topic**: [The Damping Factor & Teleportation Solution](notes.md#the-damping-factor-and-teleportation-solution)
 
 ---
 
@@ -188,7 +188,7 @@ This demonstrates how PageRank accumulates: Team B benefits from teams losing to
 
 **Answer Explanation:** **(A)** is correct—GeneRank applies PageRank to biological networks where genes are nodes and regulatory interactions are edges. Genes with high PageRank are critical regulatory hubs whose disruption would severely impact the system. **(B)** is correct—environmental scientists model organisms and feeding relationships (predator-prey) as directed graphs, using PageRank to identify apex predators where toxins accumulate most severely and to trace primary contamination sources. **(C)** is correct—historical tennis matches form a directed graph where edges point from the loser to the winner. Jimmy Connors, with his prolific career and victories over numerous strong opponents, naturally ranks highest in PageRank analysis of the tennis network. Option **(D)** is incorrect—PageRank applications supplement but haven't eliminated traditional stock analysis; both methods are used complementarily.
 
-**Related Topic**: [PageRank Beyond the Internet](notes.md#pagerank-beyond-the-internet)
+**Related Topic**: [PageRank Beyond the Internet](notes.md#4-pagerank-beyond-the-internet)
 
 ---
 
@@ -223,7 +223,7 @@ Dr. Rajesh Kumar at a university's research analytics department implements Page
 
 **Answer:** 200 points retained, 20 points received from redistribution (Option B).
 
-**Related Topic**: [The Damping Factor & Teleportation Solution](notes.md#the-damping-factor--teleportation-solution)
+**Related Topic**: [The Damping Factor & Teleportation Solution](notes.md#the-damping-factor-and-teleportation-solution)
 
 ---
 
@@ -247,7 +247,7 @@ Dr. Rajesh Kumar at a university's research analytics department implements Page
 
 **(D)** NetworkX's default damping factor (alpha parameter) is 0.85, not 0.80. Different damping factors produce different equilibria. With $s = 0.80$, papers near different network clusters receive different amounts of redistribution (20% pool) vs. $s = 0.85$ (15% pool), shifting rankings.
 
-**Related Topic**: [Implementation Method 2: The Random Walk](notes.md#implementation-method-2-the-random-walk)
+**Related Topic**: [Implementation Method 2: The Random Walk](notes.md#3-implementation-method-2-the-random-walk-the-drunk-surfer)
 
 ---
 

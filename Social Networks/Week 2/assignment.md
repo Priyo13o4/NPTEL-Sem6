@@ -31,7 +31,7 @@ The company wanted to identify:
 
 **Answer Explanation**: In an ingredient network, an edge represents co-occurrence. If salt has massive connections, it simply means it shares a recipe with almost every other ingredient in the database. This is the definition of high **Degree Centrality**.
 
-**Related Topic**: [Degree Centrality](notes.md#degree-centrality)
+**Related Topic**: [Degree Centrality](notes.md#degree-centrality-the-popular-hubs)
 
 ---
 
@@ -47,7 +47,7 @@ The company wanted to identify:
 
 **Answer Explanation**: This perfectly describes **Betweenness Centrality**. An ingredient like "soy sauce" in a fusion dataset might not be in every dish (low degree), but it acts as the vital bridge between the "Asian" cluster and the "Western" cluster.
 
-**Related Topic**: [Betweenness Centrality](notes.md#betweenness-centrality)
+**Related Topic**: [Betweenness Centrality](notes.md#betweenness-centrality-the-crucial-bridges)
 
 ---
 
@@ -95,7 +95,7 @@ The company wanted to identify:
 
 **Answer Explanation**: This is the definition of a **Scale-Free Network**. Salt and garlic are the massive hubs, while obscure ingredients like "dragon fruit powder" are peripheral nodes with only one or two links.
 
-**Related Topic**: [Scale-Free Networks](notes.md#scale-free-networks)
+**Related Topic**: [Scale-Free Networks](notes.md#3-network-topologies-the-emergence-of-hubs)
 
 ---
 
@@ -119,7 +119,7 @@ Some words with **low degree** still appeared on a large number of shortest path
 
 **Answer Explanation**: Again, just counting direct neighbors. A highly versatile word has many synonyms, meaning a high raw count of edges.
 
-**Related Topic**: [Degree Centrality](notes.md#degree-centrality)
+**Related Topic**: [Degree Centrality](notes.md#degree-centrality-the-popular-hubs)
 
 ---
 
@@ -135,7 +135,7 @@ Some words with **low degree** still appeared on a large number of shortest path
 
 **Answer Explanation**: Exactly the same concept as Q2. This is **Betweenness Centrality**. A word might bridge the "academic" jargon community with the "slang" community.
 
-**Related Topic**: [Betweenness Centrality](notes.md#betweenness-centrality)
+**Related Topic**: [Betweenness Centrality](notes.md#betweenness-centrality-the-crucial-bridges)
 
 ---
 
@@ -151,7 +151,7 @@ Some words with **low degree** still appeared on a large number of shortest path
 
 **Answer Explanation**: If a node sits on all the shortest paths between two massive clusters, removing it severs the only bridge, shattering the network into disconnected components.
 
-**Related Topic**: [Betweenness Centrality](notes.md#betweenness-centrality)
+**Related Topic**: [Betweenness Centrality](notes.md#betweenness-centrality-the-crucial-bridges)
 
 ---
 
@@ -183,7 +183,7 @@ Some words with **low degree** still appeared on a large number of shortest path
 
 **Answer Explanation**: This is the signature "heavy tail" of a scale-free network, proving that language relies heavily on a few extremely versatile anchor words (hubs).
 
-**Related Topic**: [Scale-Free Networks](notes.md#scale-free-networks)
+**Related Topic**: [Scale-Free Networks](notes.md#3-network-topologies-the-emergence-of-hubs)
 
 ---
 
@@ -271,7 +271,7 @@ A large number of pages had **no outgoing links**, requiring special handling to
 
 **Answer Explanation**: Hyperlinks have a strict direction (A points to B), and the internet is heavily reliant on massive centralized hubs (like Google, Wikipedia, Amazon) surrounded by millions of peripheral sites.
 
-**Related Topic**: [Scale-Free Networks](notes.md#scale-free-networks)
+**Related Topic**: [Scale-Free Networks](notes.md#3-network-topologies-the-emergence-of-hubs)
 
 ---
 

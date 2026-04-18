@@ -30,7 +30,7 @@ The IT team discovered that entire groups of students were **cut off** from the 
 
 **Answer Explanation**: The system has users (nodes) and connections between them (edges), which is the definition of a graph. The notice spreads through these connections, making it a network problem.
 
-**Related Topic**: [Nodes and Edges](notes.md#nodes-and-edges)
+**Related Topic**: [Nodes and Edges](notes.md#1-nodes-and-edges)
 
 ---
 
@@ -46,7 +46,7 @@ The IT team discovered that entire groups of students were **cut off** from the 
 
 **Answer Explanation**: The IT team discovered that entire groups were **disconnected** — no chain of contacts linked them to the coordinators. This is the definition of a **disconnected graph** where certain nodes cannot be reached from the source.
 
-**Related Topic**: [Network Connectivity and Paths](notes.md#network-connectivity-and-paths)
+**Related Topic**: [Network Connectivity and Paths](notes.md#3-network-connectivity-and-paths)
 
 ---
 
@@ -66,7 +66,7 @@ The IT team discovered that entire groups of students were **cut off** from the 
 
 The system satisfies both rules, making it a simple graph.
 
-**Related Topic**: [Simple Graphs vs. Multi-graphs](notes.md#simple-graphs-vs-multi-graphs)
+**Related Topic**: [Simple Graphs vs. Multi-graphs](notes.md#2-simple-graphs-vs-multi-graphs)
 
 ---
 
@@ -82,7 +82,7 @@ The system satisfies both rules, making it a simple graph.
 
 **Answer Explanation**: The notice spreads by following the chain of connections from user to user, which is a **graph traversal** or **search** operation. Algorithms like **Breadth-First Search (BFS)** model this process.
 
-**Related Topic**: [Graph Traversal (Information Flow)](notes.md#graph-traversal-information-flow)
+**Related Topic**: [Graph Traversal (Information Flow)](notes.md#4-graph-traversal-information-flow)
 
 ---
 
@@ -98,7 +98,7 @@ The system satisfies both rules, making it a simple graph.
 
 **Answer Explanation**: This describes a **complete graph** where every node connects directly to every other node. In a complete graph, any message reaches all nodes in one hop, ensuring instant global communication.
 
-**Related Topic**: [Network Density (Complete Graphs)](notes.md#network-density-complete-graphs)
+**Related Topic**: [Network Density (Complete Graphs)](notes.md#5-network-density-complete-graphs)
 
 ---
 
@@ -123,7 +123,7 @@ During the university's **three-day cultural festival**, student coordinators mo
 
 **Answer Explanation:** A **List** is the most appropriate data structure for storing sequential hourly data because it maintains order, allows easy modification (adding new hours), and supports efficient traversal. A Set (A) is unordered. A Dictionary (B) is key-value paired, unnecessarily complex for simple sequences. A Tuple (D) is immutable, preventing the addition of new data points. Lists provide the flexibility needed for dynamic data collection in time-series applications.
 
-**Related Topic:** [Nodes and Edges](notes.md#nodes-and-edges)
+**Related Topic:** [Nodes and Edges](notes.md#1-nodes-and-edges)
 
 ---
 
@@ -140,7 +140,7 @@ During the university's **three-day cultural festival**, student coordinators mo
 
 **Answer Explanation:** Reversing the list reorders the data so that the most recent hour appears first, enabling analysis of engagement patterns from the present backward in time. This is useful for identifying recent trends. Reversing does not change values (A), increase size (C), or remove data (D)—it merely reorganizes the existing data structure for analytical convenience.
 
-**Related Topic:** [Nodes and Edges](notes.md#nodes-and-edges)
+**Related Topic:** [Nodes and Edges](notes.md#1-nodes-and-edges)
 
 ---
 
@@ -157,7 +157,7 @@ During the university's **three-day cultural festival**, student coordinators mo
 
 **Answer Explanation:** The maximum sum of three numbers each between 0 and 1 is 1 + 1 + 1 = 3.0. Therefore, any sum exceeding 3.0 (like 3.8) is mathematically impossible. Options A (0.9), B (1.6), and C (2.7) are all feasible outcomes within the valid range [0, 3]. This exemplifies understanding numerical bounds and constraint validation in data analysis.
 
-**Related Topic:** [Nodes and Edges](notes.md#nodes-and-edges)
+**Related Topic:** [Nodes and Edges](notes.md#1-nodes-and-edges)
 
 ---
 
@@ -174,7 +174,7 @@ During the university's **three-day cultural festival**, student coordinators mo
 
 **Answer Explanation:** Random processes generate diverse outcomes (varying results) but within defined constraints—in this case, [0, 3]. This illustrates that randomness is not chaos; it follows probabilistic rules. Option A is false (randomness is bounded); option B contradicts observation (results vary, not always large); option D is partially misleading (patterns can emerge in aggregate). The key insight is that randomness has **mathematical structure and limits**.
 
-**Related Topic:** [Nodes and Edges](notes.md#nodes-and-edges)
+**Related Topic:** [Nodes and Edges](notes.md#1-nodes-and-edges)
 
 ---
 
@@ -191,7 +191,7 @@ During the university's **three-day cultural festival**, student coordinators mo
 
 **Answer Explanation:** Additional connections (edges) between users (nodes) expand the communication pathways available for messages to travel. This directly increases the likelihood that information can reach distant users through intermediate nodes. More connections enhance **reachability** and **connectivity** of the network. Options A, C, and D are either irrelevant or false—connections don't reduce storage, decrease users, or directly control randomness.
 
-**Related Topic:** [Network Connectivity and Paths](notes.md#network-connectivity-and-paths)
+**Related Topic:** [Network Connectivity and Paths](notes.md#3-network-connectivity-and-paths)
 
 ---
 
@@ -214,7 +214,7 @@ A corporate campus employing **500 security guards** built an internal safety co
 
 **Answer Explanation:** For a network to connect $n$ nodes where every node is reachable from every other, the minimum number of edges required is $n - 1$. With 500 guards and 499 links, the system has exactly this minimum—forming a **tree** structure. A tree is a connected graph with no cycles, representing optimal efficiency: all nodes are reachable with zero redundant edges. This is the minimal spanning tree concept.
 
-**Related Topic:** [Network Connectivity and Paths](notes.md#network-connectivity-and-paths)
+**Related Topic:** [Network Connectivity and Paths](notes.md#3-network-connectivity-and-paths)
 
 ---
 
@@ -231,7 +231,7 @@ A corporate campus employing **500 security guards** built an internal safety co
 
 **Answer Explanation:** Alerts travel through the network along edges, following a path from guard to guard—this is **graph traversal** or **searching**. The process mirrors how information spreads through connected components, similar to Breadth-First Search (BFS). Sorting (A) reorders data. Printing (C) outputs data. Deleting (D) removes data. None of these model information flow through connections.
 
-**Related Topic:** [Graph Traversal (Information Flow)](notes.md#graph-traversal-information-flow)
+**Related Topic:** [Graph Traversal (Information Flow)](notes.md#4-graph-traversal-information-flow)
 
 ---
 
@@ -248,7 +248,7 @@ A corporate campus employing **500 security guards** built an internal safety co
 
 **Answer Explanation:** The original 499-link system had a unique path between any two guards (tree property). Adding extra connections creates **cycles**—multiple paths between the same pair of nodes. When alerts propagate, they now reach guards through multiple routes simultaneously, causing repeated reception of the same alert. This is the **redundancy problem** of over-connectivity: more edges don't guarantee better performance; they introduce inefficiency.
 
-**Related Topic:** [Simple Graphs vs. Multi-graphs](notes.md#simple-graphs-vs-multi-graphs)
+**Related Topic:** [Simple Graphs vs. Multi-graphs](notes.md#2-simple-graphs-vs-multi-graphs)
 
 ---
 
@@ -265,7 +265,7 @@ A corporate campus employing **500 security guards** built an internal safety co
 
 **Answer Explanation:** A **two-way** (or undirected) graph allows communication along edges in both directions. If Guard A can message Guard B, then Guard B can equally message Guard A. This is in contrast to **one-way** (directed) graphs where edges have direction. The case study explicitly states communication "worked both ways," confirming an undirected graph structure.
 
-**Related Topic:** [Nodes and Edges](notes.md#nodes-and-edges)
+**Related Topic:** [Nodes and Edges](notes.md#1-nodes-and-edges)
 
 ---
 
@@ -282,7 +282,7 @@ A corporate campus employing **500 security guards** built an internal safety co
 
 **Answer Explanation:** The experiment demonstrates that the minimal tree (499 edges) was optimal. Adding extra edges (cycles) degraded performance through alert redundancy. This illustrates a fundamental principle: **there is an optimal level of connectivity**. Below it, networks are disconnected and fail. Above it, redundancy causes inefficiency. Real networks must balance connectivity with efficiency—more connections help only until saturation point. This trade-off is central to network design.
 
-**Related Topic:** [Network Density (Complete Graphs)](notes.md#network-density-complete-graphs)
+**Related Topic:** [Network Density (Complete Graphs)](notes.md#5-network-density-complete-graphs)
 
 ---
 
