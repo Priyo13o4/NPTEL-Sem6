@@ -160,7 +160,7 @@ $$\text{Stability} = \begin{cases}
 \text{UNSTABLE} & \text{if } (\text{\#negative edges}) \text{ is odd}
 \end{cases}$$
 
-Or equivalently: **A triangle is stable if it contains 0, 2, or 3 positive edges** (i.e., an odd number of positive edges is unstable).
+Or equivalently: **A triangle is stable if it contains 1 or 3 positive edges** (i.e., an even number of positive edges is unstable).
 
 ---
 
