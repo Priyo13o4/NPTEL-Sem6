@@ -72,7 +72,7 @@ For Q4–Q6, consider the following corpus:
 
 ### Q4 (2 points)
 **Assuming a bigram language model, calculate the probability of the sentence:** `<s> the dragon casts fire </s>`.  
-Ignore the unigram probability of $P(\text{<s>})$ in your calculation.
+Ignore the unigram probability of $P(\langle s \rangle)$ in your calculation.
 
 - [ ] A) 2/37
 - [ ] B) 1/27
@@ -114,11 +114,11 @@ From the corpus, $V=9$ (the, wizard, sees, dragon, breathes, fire, casts, a, spe
 
 Compute each required bigram:
 
-- $P(\text{the}\mid\text{<s>})=\frac{\text{Count}(\text{<s> the})+1}{\text{Count}(\text{<s>})+V}=\frac{3+1}{3+9}=\frac{1}{3}$
+- $P(\text{the}\mid\langle s \rangle)=\frac{\text{Count}(\langle s \rangle\ \text{the})+1}{\text{Count}(\langle s \rangle)+V}=\frac{3+1}{3+9}=\frac{1}{3}$
 - $P(\text{dragon}\mid\text{the})=\frac{\text{Count}(\text{the dragon})+1}{\text{Count}(\text{the})+V}=\frac{2+1}{4+9}=\frac{3}{13}$
 - $P(\text{casts}\mid\text{dragon})=\frac{0+1}{2+9}=\frac{1}{11}$
 - $P(\text{fire}\mid\text{casts})=\frac{0+1}{1+9}=\frac{1}{10}$
-- $P(\text{</s>}\mid\text{fire})=\frac{\text{Count}(\text{fire </s>})+1}{\text{Count}(\text{fire})+V}=\frac{1+1}{1+9}=\frac{1}{5}$
+- $P(\langle /s \rangle\mid\text{fire})=\frac{\text{Count}(\text{fire}\ \langle /s \rangle)+1}{\text{Count}(\text{fire})+V}=\frac{1+1}{1+9}=\frac{1}{5}$
 
 Multiply:
 

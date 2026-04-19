@@ -41,9 +41,9 @@ $$P(w_i\mid w_1\dots w_{i-1}) \approx P(w_i\mid w_{i-k}\dots w_{i-1})$$
 
 With sentence boundary tokens, a bigram sentence probability often looks like:
 
-$$P(\text{<s>}\, w_1 \dots w_n \,\text{</s>}) \propto \prod_{i=1}^{n+1} P(w_i\mid w_{i-1})$$
+$$P(\langle s \rangle\, w_1 \dots w_n \,\langle /s \rangle) \propto \prod_{i=1}^{n+1} P(w_i\mid w_{i-1})$$
 
-(where $w_{n+1}=\text{</s>}$; many assignments ignore $P(\text{<s>})$).
+(where $w_{n+1}=\langle /s \rangle$; many assignments ignore $P(\langle s \rangle)$).
 
 ### Maximum Likelihood Estimation (MLE) for N-grams
 For a bigram model:
@@ -58,7 +58,7 @@ Most possible N-grams never appear in a finite corpus (typical tables are extrem
 **Related Assignment Questions**: Q4.
 
 ### OOV and the `<UNK>` token
-If a test word was never seen in training, it is **out-of-vocabulary (OOV)**. A common fix is to map rare/unseen words to a special token like `<UNK>` during training so the model can assign probability mass to “unknown word here”.
+If a test word was never seen in training, it is **out-of-vocabulary (OOV)**. A common fix is to map rare/unseen words to a special token like `<UNK>` during training so the model can assign probability mass to "unknown word here".
 
 ### Basic smoothing
 Smoothing redistributes probability mass so unseen events get non-zero probability.
