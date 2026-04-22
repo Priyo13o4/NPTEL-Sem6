@@ -101,12 +101,7 @@ Use this lightweight checklist:
 1. Extract assignment concepts → ensure each has a dedicated notes section.
 2. If Gemini misses a concept that appears in the scrape/assignment, **add it** (definition + intuition + example).
 3. Keep terminology consistent between notes and assignment.
-
----
-
-## Diagrams (optional, sparing)
-
-Use Mermaid **only** when it clarifies structure/steps better than text (e.g., algorithm flow, pipeline stages). Keep diagrams small and add a 1–2 line caption.
+4. Make sure the concepts mentioned in the options of the assignment questions are defined in the notes and explained verbosely. DO NOT assume the reader already knows them.
 
 ---
 
@@ -126,8 +121,3 @@ After creating/updating any week’s `notes.md` / `assignment.md`, do a quick sa
 	- Re-check the above items after patching.
 
 If you’re using subagents, run a review agent after writing and then apply its suggested fixes in the same pass (don’t leave “TODO: fix later”).
-
-**Audit agent loop (recommended)**
-
-- After writing a week, run an audit agent on `notes.md` + `assignment.md`.
-- If it finds issues, patch immediately, then re-run the audit to confirm everything is fixed.
