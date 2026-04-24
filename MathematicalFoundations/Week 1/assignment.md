@@ -16,7 +16,7 @@
 
 - [ ] A) $D = \{x_1, x_2, \ldots, x_n\}$
 - [ ] B) $D = \{y_1, y_2, \ldots, y_n\}$
-- [x] C) $D = \{(x_1,y_1), (x_2,y_2), \ldots, (x_n,y_n)\}$
+- [ ] C) $D = \{(x_1,y_1), (x_2,y_2), \ldots, (x_n,y_n)\}$
 - [ ] D) $D = \{(y_1,x_1), (y_1,x_2), \ldots, (y_1,x_n)\}$
 
 **Answer:** C
@@ -37,7 +37,7 @@ Incorrect options:
 **If an image has size $p \times q$ and is vectorized for learning, it is naturally viewed as an element of:**
 
 - [ ] A) $\mathbb{R}^{p+q}$
-- [x] B) $\mathbb{R}^{pq}$
+- [ ] B) $\mathbb{R}^{pq}$
 - [ ] C) $\mathbb{R}^{p/q}$
 - [ ] D) $\mathbb{R}^{p-q}$
 
@@ -58,7 +58,7 @@ Incorrect options:
 
 **In binary classification, the label set commonly used is:**
 
-- [x] A) $Y = \{0, 1\}$
+- [ ] A) $Y = \{0, 1\}$
 - [ ] B) $Y = \{-1, +1, +2\}$
 - [ ] C) $Y = \{1, 2, 3\}$
 - [ ] D) $Y = \mathbb{R}$
@@ -83,7 +83,7 @@ Incorrect options:
 
 - [ ] A) Because $f$ is always linear
 - [ ] B) Because $f$ is known exactly from physics
-- [x] C) Because the true mapping $f$ is complex/uncertain and we model uncertainty statistically
+- [ ] C) Because the true mapping $f$ is complex/uncertain and we model uncertainty statistically
 - [ ] D) Because images always have pixel values in a bounded range
 
 **Answer:** C
@@ -106,7 +106,7 @@ Incorrect options:
 **A probability space is a triplet:**
 
 - [ ] A) $(X, Y, f)$
-- [x] B) $(\Omega, \mathcal{F}, P)$
+- [ ] B) $(\Omega, \mathcal{F}, P)$
 - [ ] C) $(\mathbb{R}, \Omega, \mathcal{F})$
 - [ ] D) $(P, \Omega, \mathbb{R}^d)$
 
@@ -131,7 +131,7 @@ Incorrect options:
 **For any event $A$, which of the following must always hold for a probability measure $P$?**
 
 - [ ] A) $P(A) \in [-1, 1]$
-- [x] B) $P(A) \geq 0$
+- [ ] B) $P(A) \geq 0$
 - [ ] C) $P(A) > 1$
 - [ ] D) $P(A) = 0$ for all $A$
 
@@ -153,7 +153,7 @@ Incorrect options:
 **If $A$ and $B$ are disjoint events (i.e., $A \cap B = \emptyset$), then:**
 
 - [ ] A) $P(A \cup B) = P(A) \cdot P(B)$
-- [x] B) $P(A \cup B) = P(A) + P(B)$
+- [ ] B) $P(A \cup B) = P(A) + P(B)$
 - [ ] C) $P(A \cup B) = P(A) - P(B)$
 - [ ] D) $P(A \cup B) = 1$
 
@@ -179,7 +179,7 @@ Incorrect options:
 **A random variable is defined as:**
 
 - [ ] A) A number chosen by the teacher
-- [x] B) A function $X: \Omega \rightarrow \mathbb{R}$
+- [ ] B) A function $X: \Omega \rightarrow \mathbb{R}$
 - [ ] C) A set of all outcomes $\Omega$
 - [ ] D) A probability measure $P: \mathcal{F} \rightarrow [0,1]$
 
@@ -201,7 +201,7 @@ Incorrect options:
 **The distribution induced by a random variable $X$ is commonly described through the probability of events of the form:**
 
 - [ ] A) $P(\{X = x\})$
-- [x] B) $P(\{X \leq x\})$
+- [ ] B) $P(\{X \leq x\})$
 - [ ] C) $P(\{\omega \leq x\})$
 - [ ] D) $P(\{x \in \Omega\})$
 
@@ -225,7 +225,7 @@ Incorrect options:
 **A vector-valued random variable in $\mathbb{R}^d$ is defined as:**
 
 - [ ] A) $X: \mathbb{R}^d \rightarrow \Omega$
-- [x] B) $X: \Omega \rightarrow \mathbb{R}^d$
+- [ ] B) $X: \Omega \rightarrow \mathbb{R}^d$
 - [ ] C) $X: \Omega \rightarrow \mathcal{F}$
 - [ ] D) $X: \mathcal{F} \rightarrow [0,1]$
 
