@@ -15,7 +15,7 @@
 **A vector-valued random variable is defined as:**
 
 - [ ] A) $X: \mathbb{R}^d \rightarrow \Omega$
-- [x] B) $X: \Omega \rightarrow \mathbb{R}^d$
+- [ ] B) $X: \Omega \rightarrow \mathbb{R}^d$
 - [ ] C) $X: \mathcal{F} \rightarrow \mathbb{R}^d$
 - [ ] D) $X: \Omega \rightarrow \mathcal{F}$
 
@@ -37,7 +37,7 @@ Incorrect options:
 **Let $X_1: \Omega \rightarrow \mathbb{R}$ and $X_2: \Omega \rightarrow \mathbb{R}$ be two RVs on the same sample space. The joint distribution function $P_{X_1X_2}(a, b)$ corresponds to:**
 
 - [ ] A) $P(X_1 = a \text{ or } X_2 = b)$
-- [x] B) $P(X_1 \leq a, X_2 \leq b)$
+- [ ] B) $P(X_1 \leq a, X_2 \leq b)$
 - [ ] C) $P(X_1 \geq a, X_2 \geq b)$
 - [ ] D) $P(X_1 = a, X_2 = b)$
 
@@ -62,7 +62,7 @@ Incorrect options:
 
 - [ ] A) $P(A \mid B) = P(A) \cdot P(B)$
 - [ ] B) $P(A \mid B) = P(A) \cdot P(A)$
-- [x] C) $P(A \mid B) = \frac{P(A \cap B)}{P(B)}$
+- [ ] C) $P(A \mid B) = \frac{P(A \cap B)}{P(B)}$
 - [ ] D) $P(A \mid B) = P(A \cap B)$
 
 **Answer:** C
@@ -83,7 +83,7 @@ Incorrect options:
 **If $X$ and $Y$ are two RVs, the conditional distribution is written (conceptually) as:**
 
 - [ ] A) $P_{X \mid Y} = P_X \cdot P_Y$
-- [x] B) $P_{X \mid Y} = \frac{P_{XY}}{P_Y}$
+- [ ] B) $P_{X \mid Y} = \frac{P_{XY}}{P_Y}$
 - [ ] C) $P_{X \mid Y} = \frac{P_Y}{P_{XY}}$
 - [ ] D) $P_{X \mid Y} = P_X + P_Y$
 
@@ -107,7 +107,7 @@ Incorrect options:
 **If a joint density (or joint distribution) is known, the marginal of $X$ is obtained by:**
 
 - [ ] A) Differentiating with respect to $y$
-- [x] B) Integrating (or summing) out $y$
+- [ ] B) Integrating (or summing) out $y$
 - [ ] C) Multiplying by $P_Y$
 - [ ] D) Setting $y = 0$
 
@@ -132,7 +132,7 @@ Incorrect options:
 
 - [ ] A) $D = \{x_i\}_{i=1}^{n} \sim_{\text{iid}} P_X$
 - [ ] B) $D = \{y_i\}_{i=1}^{n} \sim_{\text{iid}} P_Y$
-- [x] C) $D = \{(x_i, y_i)\}_{i=1}^{n} \sim_{\text{iid}} P_{XY}$
+- [ ] C) $D = \{(x_i, y_i)\}_{i=1}^{n} \sim_{\text{iid}} P_{XY}$
 - [ ] D) $D = \{(x_i, y_i)\}_{i=1}^{n} \sim_{\text{iid}} P_{X \mid Y}$
 
 **Answer:** C
@@ -153,7 +153,7 @@ Incorrect options:
 **"i.i.d." stands for:**
 
 - [ ] A) indexed and independently defined
-- [x] B) independent and identically distributed
+- [ ] B) independent and identically distributed
 - [ ] C) identical and independent dimensions
 - [ ] D) integrated and inferred distribution
 
@@ -177,7 +177,7 @@ Incorrect options:
 **In a vector-valued datapoint $x \in \mathbb{R}^d$, independence is typically assumed:**
 
 - [ ] A) among the $d$ coordinates within a datapoint
-- [x] B) across datapoints, not necessarily across coordinates
+- [ ] B) across datapoints, not necessarily across coordinates
 - [ ] C) neither across datapoints nor coordinates
 - [ ] D) only for labels, not for inputs
 
@@ -202,7 +202,7 @@ Incorrect options:
 
 **If $X$ is a continuous RV with density $p_X$, then the CDF satisfies:**
 
-- [x] A) $P_X(x) = \int_{-\infty}^{x} p_X(t) \, dt$
+- [ ] A) $P_X(x) = \int_{-\infty}^{x} p_X(t) \, dt$
 - [ ] B) $P_X(x) = \int_{x}^{\infty} p_X(t) \, dt$
 - [ ] C) $p_X(x) = \int_{-\infty}^{x} P_X(t) \, dt$
 - [ ] D) $p_X(x) = P(X \leq x)$
@@ -228,7 +228,7 @@ Incorrect options:
 
 **In density estimation as described, a common parametric approach is:**
 
-- [x] A) Assume a family $p_\theta$ for the unknown density and estimate $\theta$
+- [ ] A) Assume a family $p_\theta$ for the unknown density and estimate $\theta$
 - [ ] B) Avoid any modeling assumptions and never optimize parameters
 - [ ] C) Set $p_X(x) = P(X = x)$ for all $x$
 - [ ] D) Define $\theta$ without using data

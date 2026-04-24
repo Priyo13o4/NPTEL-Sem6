@@ -17,7 +17,7 @@
 - [ ] A) 5×8
 - [ ] B) 8×4
 - [ ] C) 4×5
-- [x] D) 5×4
+- [ ] D) 5×4
 
 **Answer:** D
 
@@ -68,7 +68,7 @@ Each of the 5 tokens is transformed from its original 8-dimensional embedding in
 - [ ] A) 4×4
 - [ ] B) 6×4
 - [ ] C) 4×6
-- [x] D) 6×6
+- [ ] D) 6×6
 
 **Answer:** D
 
@@ -128,7 +128,7 @@ We want to compute all possible query-key combinations. Transposing $K$ aligns i
 - [ ] A) (3, 5)
 - [ ] B) (5, 7)
 - [ ] C) (2, 6)
-- [x] D) (4, 7)
+- [ ] D) (4, 7)
 
 **Answer:** D
 
@@ -194,7 +194,7 @@ During softmax, $k_2$ would receive more attention weight than $k_1$ because it 
 - [ ] A) 2
 - [ ] B) 3
 - [ ] C) 5
-- [x] D) 4
+- [ ] D) 4
 
 **Answer:** D
 
@@ -253,7 +253,7 @@ where each projection maps from $d_{model} = 12$ to $d_k = 4$.
 - [ ] A) 7
 - [ ] B) 14
 - [ ] C) 28
-- [x] D) 49
+- [ ] D) 49
 
 **Answer:** D
 
@@ -328,7 +328,7 @@ The $O(T^2)$ complexity of attention is why transformers can become expensive fo
 
 - [ ] A) 128
 - [ ] B) 138
-- [x] C) 1280
+- [ ] C) 1280
 - [ ] D) 2560
 
 **Answer:** C
@@ -390,7 +390,7 @@ where $x \in \mathbb{R}^{128}$ is the pretrained embedding and $W \in \mathbb{R}
 
 - [ ] A) 320
 - [ ] B) 384
-- [x] C) 448
+- [ ] C) 448
 - [ ] D) 512
 
 **Answer:** C
@@ -458,7 +458,7 @@ Both tasks benefit from a shared understanding of the text, encoded in the 64-di
 
 - [ ] A) 4.6
 - [ ] B) 4.5
-- [x] C) 4.7
+- [ ] C) 4.7
 - [ ] D) 4.8
 
 **Answer:** C
@@ -523,7 +523,7 @@ Over many steps, this algorithm converges to a local minimum where $\nabla L(w) 
 
 - [ ] A) 2.0
 - [ ] B) 1.8
-- [x] C) 2.2
+- [ ] C) 2.2
 - [ ] D) 2.4
 
 **Answer:** C
@@ -596,7 +596,7 @@ $$w_{t+1} = w_t - \eta v_t$$
 
 - [ ] A) 4.2
 - [ ] B) 4.4
-- [x] C) 4.0
+- [ ] C) 4.0
 - [ ] D) 3.8
 
 **Answer:** C

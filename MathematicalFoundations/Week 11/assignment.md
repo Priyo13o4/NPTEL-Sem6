@@ -16,7 +16,7 @@
 
 - [ ] A) 0.16
 - [ ] B) 0.24
-- [x] C) 0.32
+- [ ] C) 0.32
 - [ ] D) 0.40
 
 **Answer:** C
@@ -92,7 +92,7 @@ Summing over all classes: $\sum_k p_k(1 - p_k) = \sum_k (p_k - p_k^2)$. Rearrang
 **A node contains 3 samples of class A and 1 sample of class B. Using base-2 logarithm, what is the entropy of the node?**
 
 - [ ] A) 0.311
-- [x] B) 0.811
+- [ ] B) 0.811
 - [ ] C) 1.0
 - [ ] D) 1.5
 
@@ -192,7 +192,7 @@ Splits that create pure child nodes produce high information gain.
 - [ ] A) 4
 - [ ] B) 6
 - [ ] C) 20
-- [x] D) 5
+- [ ] D) 5
 
 **Answer:** D
 
@@ -251,7 +251,7 @@ Unlike classification trees (which assign the majority class), regression trees 
 
 - [ ] A) 2
 - [ ] B) 4/3
-- [x] C) 8/3
+- [ ] C) 8/3
 - [ ] D) 4
 
 **Answer:** C
@@ -322,7 +322,7 @@ Both are impurity measures; trees choose splits that minimize the weighted avera
 
 - [ ] A) 0.523
 - [ ] B) 0.623
-- [x] C) 0.632
+- [ ] C) 0.632
 - [ ] D) 0.532
 
 **Answer:** C
@@ -398,7 +398,7 @@ The complement (36.8% omitted) is central to Q8.
 
 - [ ] A) 2
 - [ ] B) 3
-- [x] C) 2.5
+- [ ] C) 2.5
 - [ ] D) 3.5
 
 **Answer:** C
@@ -476,7 +476,7 @@ The weighted average ensures that larger child nodes have more influence. If the
 
 - [ ] A) 2.88
 - [ ] B) 4.32
-- [x] C) 3.24
+- [ ] C) 3.24
 - [ ] D) 9
 
 **Answer:** C
@@ -543,7 +543,7 @@ The ensemble variance is **3.24**, down from **9** (a single learner). That's a 
 
 **If the probability that a training point is not selected in a bootstrap sample is approximately 0.368, then in a dataset of 1000 points, about how many points are expected to be omitted from one bootstrap sample?**
 
-- [x] A) 368
+- [ ] A) 368
 - [ ] B) 268
 - [ ] C) 500
 - [ ] D) 632
@@ -596,7 +596,7 @@ The omitted samples (36.8% of data) are called **out-of-bag** data. Since they d
 **In a random forest, suppose the input has 16 features and at each node 4 features are randomly considered. What fraction of the total features is examined at each split?**
 
 - [ ] A) 0.125
-- [x] B) 0.25
+- [ ] B) 0.25
 - [ ] C) 0.5
 - [ ] D) 0.75
 
@@ -662,7 +662,7 @@ In practice, $m$ is a hyperparameter that can be tuned via cross-validation. Sma
 
 - [ ] A) 5.3
 - [ ] B) 6.0
-- [x] C) 5.6
+- [ ] C) 5.6
 - [ ] D) 6.5
 
 **Answer:** C

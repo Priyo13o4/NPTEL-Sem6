@@ -15,7 +15,7 @@
 **Which expression equals $D_{KL}(P \mid\mid Q)$ for discrete distributions?**
 
 - [ ] A) $\sum_x Q(x) \log \frac{Q(x)}{P(x)}$
-- [x] B) $\sum_x P(x) \log \frac{P(x)}{Q(x)}$
+- [ ] B) $\sum_x P(x) \log \frac{P(x)}{Q(x)}$
 - [ ] C) $\sum_x |P(x) - Q(x)|$
 - [ ] D) $-\sum_x P(x) \log Q(x)$
 
@@ -45,7 +45,7 @@ Incorrect options:
 
 - [ ] A) $D_{KL}(P \mid\mid Q) \leq 0$
 - [ ] B) $D_{KL}(P \mid\mid Q) = D_{KL}(Q \mid\mid P)$
-- [x] C) $D_{KL}(P \mid\mid Q) \geq 0$ with equality iff $P = Q$
+- [ ] C) $D_{KL}(P \mid\mid Q) \geq 0$ with equality iff $P = Q$
 - [ ] D) $D_{KL}(P \mid\mid Q) = H(P)$
 
 **Answer:** C
@@ -76,7 +76,7 @@ Incorrect options:
 **For a positive random variable Y and concave log(·), Jensen implies:**
 
 - [ ] A) $\log \mathbb{E}[Y] \leq \mathbb{E}[\log Y]$
-- [x] B) $\log \mathbb{E}[Y] \geq \mathbb{E}[\log Y]$
+- [ ] B) $\log \mathbb{E}[Y] \geq \mathbb{E}[\log Y]$
 - [ ] C) $\mathbb{E}[\log Y] \geq \mathbb{E}[Y]$
 - [ ] D) $\log Y$ is convex so Jensen does not apply
 
@@ -107,7 +107,7 @@ Incorrect options:
 
 - [ ] A) $D_{KL}(P \mid\mid Q) = 0$
 - [ ] B) $D_{KL}(P \mid\mid Q)$ is finite and small
-- [x] C) $D_{KL}(P \mid\mid Q) = +\infty$
+- [ ] C) $D_{KL}(P \mid\mid Q) = +\infty$
 - [ ] D) $D_{KL}(Q \mid\mid P) = +\infty$
 
 **Answer:** C
@@ -140,7 +140,7 @@ Incorrect options:
 **For any distribution q(z), which decomposition is correct?**
 
 - [ ] A) $\log p(x) = \mathbb{E}_q[\log p(x,z)] + D_{KL}(p(z|x) \mid\mid q(z))$
-- [x] B) $\log p(x) = \mathbb{E}_q[\log p(x,z) - \log q(z)]_{\text{ELBO}} + D_{KL}(q(z) \mid\mid p(z|x))$
+- [ ] B) $\log p(x) = \mathbb{E}_q[\log p(x,z) - \log q(z)]_{\text{ELBO}} + D_{KL}(q(z) \mid\mid p(z|x))$
 - [ ] C) $\log p(x) = \mathbb{E}_q[\log p(z|x)] - H(q)$
 - [ ] D) $\log p(x) = H(q) + D_{KL}(q \mid\mid p(z))$
 
@@ -181,7 +181,7 @@ Incorrect options:
 
 - [ ] A) When $q(z)$ is uniform
 - [ ] B) When $q(z) = p(z)$
-- [x] C) When $q(z) = p(z|x)$
+- [ ] C) When $q(z) = p(z|x)$
 - [ ] D) When $p(x)$ is Gaussian
 
 **Answer:** C
@@ -220,7 +220,7 @@ Incorrect options:
 
 **A categorical variable takes values in {1,2,3,4}. In N=20 samples, counts are (n₁,n₂,n₃,n₄) = (2,8,5,5). What is the MLE of (p₁,p₂,p₃,p₄)?**
 
-- [x] A) $(0.10, 0.40, 0.25, 0.25)$
+- [ ] A) $(0.10, 0.40, 0.25, 0.25)$
 - [ ] B) $(0.20, 0.80, 0.50, 0.50)$
 - [ ] C) $(0.12, 0.38, 0.25, 0.25)$
 - [ ] D) $(0.08, 0.42, 0.25, 0.25)$
@@ -255,7 +255,7 @@ Incorrect options:
 **To maximize $\sum_{j=1}^K n_j \log p_j$ subject to $\sum_{j=1}^K p_j = 1$, the Lagrangian is $L(p,\lambda) = \sum_{j=1}^K n_j \log p_j + \lambda(\sum_{j=1}^K p_j - 1)$. Setting $\partial L/\partial p_j = 0$ gives which relation?**
 
 - [ ] A) $p_j = \lambda / n_j$
-- [x] B) $p_j = -n_j / \lambda$
+- [ ] B) $p_j = -n_j / \lambda$
 - [ ] C) $p_j = \lambda \cdot n_j$
 - [ ] D) $p_j = -\lambda \log n_j$
 
@@ -305,7 +305,7 @@ Incorrect options:
 **A dataset clearly has two separate peaks (two clusters) along "x". A single Gaussian fits poorly. Which model class is most appropriate from the covered topics?**
 
 - [ ] A) Single Gaussian $\mathcal{N}(\mu, \sigma^2)$
-- [x] B) Gaussian Mixture Model (GMM)
+- [ ] B) Gaussian Mixture Model (GMM)
 - [ ] C) Uniform distribution on an interval
 - [ ] D) Single exponential distribution
 
@@ -345,7 +345,7 @@ Incorrect options:
 **A discrete RV takes values in {1,…,K}. Data yields counts nₖ for category k with ∑ₖ₌₁ᴷ nₖ = n. The multinomial parameter is θ = (θ₁,…,θK) with θₖ ≥ 0 and ∑ₖ θₖ = 1. What is the MLE?**
 
 - [ ] A) $\hat{\theta}_k = 1/K$
-- [x] B) $\hat{\theta}_k = n_k / n$
+- [ ] B) $\hat{\theta}_k = n_k / n$
 - [ ] C) $\hat{\theta}_k = n / n_k$
 - [ ] D) $\hat{\theta}_k \propto \log n_k$
 

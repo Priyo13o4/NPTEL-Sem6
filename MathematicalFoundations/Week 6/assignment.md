@@ -16,7 +16,7 @@
 
 - [ ] A) The probabilistic approach estimates a direct function $h:X \rightarrow Y$ via Empirical Risk Minimization.
 - [ ] B) The risk minimization approach aims to estimate distributions $P_x$ & $P_{y|x}$ via divergence minimization.
-- [x] C) The probabilistic approach estimates distributions such as $P_{y|x}$ via divergence minimization, while the risk minimization approach estimates a function $h$ from the dataset.
+- [ ] C) The probabilistic approach estimates distributions such as $P_{y|x}$ via divergence minimization, while the risk minimization approach estimates a function $h$ from the dataset.
 - [ ] D) Both approaches solve for the same objective function $(X^T X)^{-1} X^T \mathbf{y}$ regardless of the model type.
 
 **Answer:** C
@@ -54,7 +54,7 @@ This question tests understanding of the **two foundational philosophies** in ma
 **It is claimed that Divergence Minimization and ERM are equivalent in certain scenarios. For a model where $p_\theta(y|x) \sim \mathcal{N}(y; h_\theta(x), I)$, which loss function in ERM makes the Maximum Likelihood objective equivalent to ERM?**
 
 - [ ] A) Cross-Entropy Loss
-- [x] B) Squared Error Loss
+- [ ] B) Squared Error Loss
 - [ ] C) Hinge Loss
 - [ ] D) Absolute Error Loss
 
@@ -110,7 +110,7 @@ $$\hat{R}(\theta) = \frac{1}{n} \sum_{i=1}^{n} (y_i - h_\theta(x_i))^2$$
 **To represent a linear model $h_\theta(x) = \theta^T x + \theta_0$ as a single dot product $h_\theta(x) = \theta^T X$, how must the input vector $x \in \mathbb{R}^d$ and the parameter vector $\theta$ be transformed?**
 
 - [ ] A) $X = [x, 0]^T$ & $\theta \in \mathbb{R}^d$
-- [x] B) $X = [x, 1]^T$ & $\theta \in \mathbb{R}^{d+1}$
+- [ ] B) $X = [x, 1]^T$ & $\theta \in \mathbb{R}^{d+1}$
 - [ ] C) $X = \phi(x)$ & $\theta \in \mathbb{R}^d$
 - [ ] D) No transformation is needed; the bias is always zero in ERM.
 
@@ -163,7 +163,7 @@ Multiplying anything by 1 gives the identity. So $\theta_0 \cdot 1 = \theta_0$ a
 **For a linear model with squared error loss, what is the analytical solution for the optimal parameters $\theta^*$?**
 
 - [ ] A) $\theta^* = \theta - \alpha \nabla \hat{R}(\theta)$
-- [x] B) $\theta^* = (X^T X)^{-1} X^T \mathbf{y}$
+- [ ] B) $\theta^* = (X^T X)^{-1} X^T \mathbf{y}$
 - [ ] C) $\theta^* = \sigma(\theta^T x)$
 - [ ] D) $\theta^* = \text{softmax}(\theta^T x)$
 
@@ -224,7 +224,7 @@ $$\theta^* = (X^T X)^{-1} X^T \mathbf{y}$$
 **In Generalized Linear Models, how can a user achieve non-linear combinations of data dimensions while still using a linear solver?**
 
 - [ ] A) By using a non-linear loss function like Cross-Entropy.
-- [x] B) By applying a fixed transformation $\phi(x)$ to the data before performing ERM.
+- [ ] B) By applying a fixed transformation $\phi(x)$ to the data before performing ERM.
 - [ ] C) By iteratively updating $\theta$ using second-order gradients.
 - [ ] D) By increasing the dimensionality of the target $\mathbf{y}$.
 
@@ -289,7 +289,7 @@ The linear solver $(X^T X)^{-1} X^T \mathbf{y}$ doesn't care about the **source*
 **Why is the sigmoid function $\sigma(t) = 1/(1+e^{-t})$ used in binary classification models like Logistic Regression?**
 
 - [ ] A) To ensure the output is always a one-hot vector.
-- [x] B) To map the real-valued output of $\theta^T x$ to the [0,1] range, representing a probability.
+- [ ] B) To map the real-valued output of $\theta^T x$ to the [0,1] range, representing a probability.
 - [ ] C) To calculate the inverse of the matrix $X^T X$.
 - [ ] D) To eliminate the need for a bias term $\theta_0$.
 
@@ -360,7 +360,7 @@ Interpretation:
 
 - [ ] A) $Z_j$ is always either 0 or 1.
 - [ ] B) The vector $Z$ is the gradient of the loss function.
-- [x] C) $Z_j \in [0,1]$ & $\sum_j Z_j = 1$
+- [ ] C) $Z_j \in [0,1]$ & $\sum_j Z_j = 1$
 - [ ] D) $Z = (X^T X)^{-1} X^T \mathbf{y}$
 
 **Answer:** C
@@ -431,7 +431,7 @@ The model is very confident in class 1 (95%), less confident in class 2 (4%), an
 **When an optimization problem (like Logistic Regression) cannot be solved analytically, which numerical update rule is typically used?**
 
 - [ ] A) $\theta_{t+1} = (X^T X)^{-1} X^T \mathbf{y}$
-- [x] B) $\theta_{t+1} = \theta_t - \alpha \nabla_\theta \hat{R}(\theta_t)$
+- [ ] B) $\theta_{t+1} = \theta_t - \alpha \nabla_\theta \hat{R}(\theta_t)$
 - [ ] C) $\theta_{t+1} = \text{softmax}(\theta_t)$
 - [ ] D) $\theta_{t+1} = \theta_t + \alpha \nabla_\theta \hat{R}(\theta_t)$
 
@@ -507,7 +507,7 @@ Modern deep learning uses adaptive methods:
 **The Cross-Entropy loss for a classification model $h_\theta(x)$ and target $y$ is defined as:**
 
 - [ ] A) $L_C = \|h_\theta(x) - y\|_2^2$
-- [x] B) $L_C = -\sum_k y_k \log h_\theta(x)$
+- [ ] B) $L_C = -\sum_k y_k \log h_\theta(x)$
 - [ ] C) $L_C = \sigma(\theta^T x)$
 - [ ] D) $L_C = \max(0, 1 - y h_\theta(x))$
 
@@ -580,7 +580,7 @@ If $y = 0$: $L_C = -\log(1 - \hat{p})$ (penalize if high probability for class 1
 **Which of the following best describes the goal of studying generalization in Machine Learning?**
 
 - [ ] A) To minimize the loss on the training set $D_{\text{train}}$ only.
-- [x] B) To understand how a model $\hat{h}^*(x)$ trained on $D_{\text{train}}$ will perform on unseen data $D_{\text{test}}$.
+- [ ] B) To understand how a model $\hat{h}^*(x)$ trained on $D_{\text{train}}$ will perform on unseen data $D_{\text{test}}$.
 - [ ] C) To ensure the variance of the model is always zero.
 - [ ] D) To find a transformation $\phi(x)$ that makes the training error zero.
 

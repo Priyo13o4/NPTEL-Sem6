@@ -15,7 +15,7 @@
 **Let P be a discrete distribution over {a, b, c, d} with P(a) = 1/2, P(b) = 1/4, P(c) = 1/8, P(d) = 1/8. Using log₂, the entropy H(P) equals:**
 
 - [ ] A) 1.5
-- [x] B) 1.75
+- [ ] B) 1.75
 - [ ] C) 2
 - [ ] D) 2.25
 
@@ -46,7 +46,7 @@ The platform likely confused the actual entropy of this distribution with the ma
 
 - [ ] A) $H(P)$
 - [ ] B) $H(Q)$
-- [x] C) $H(P, Q)$
+- [ ] C) $H(P, Q)$
 - [ ] D) $D_{KL}(Q \mid\mid P)$
 
 **Answer:** C
@@ -67,7 +67,7 @@ Incorrect options:
 **Which identity is always true for discrete P, Q with Q(x) > 0 whenever P(x) > 0?**
 
 - [ ] A) $H(P, Q) = H(Q) + D_{KL}(P \mid\mid Q)$
-- [x] B) $H(P, Q) = H(P) + D_{KL}(P \mid\mid Q)$
+- [ ] B) $H(P, Q) = H(P) + D_{KL}(P \mid\mid Q)$
 - [ ] C) $H(P) = H(P, Q) + D_{KL}(P \mid\mid Q)$
 - [ ] D) $D_{KL}(P \mid\mid Q) = H(P, Q) + H(P)$
 
@@ -99,7 +99,7 @@ Incorrect options:
 
 - [ ] A) $H(P, Q) = H(P)$
 - [ ] B) $D_{KL}(P \mid\mid Q) = 0$
-- [x] C) $D_{KL}(P \mid\mid Q) = +\infty$
+- [ ] C) $D_{KL}(P \mid\mid Q) = +\infty$
 - [ ] D) $D_{KL}(Q \mid\mid P) = +\infty$
 
 **Answer:** C
@@ -128,7 +128,7 @@ Incorrect options:
 **Let p be the true data distribution and {p_θ} a parametric model. Minimizing D_KL(p‖p_θ) over θ is equivalent to:**
 
 - [ ] A) Minimizing $\mathbb{E}_{v \sim p}[\log p_{\theta}(v)]$
-- [x] B) Maximizing $\mathbb{E}_{v \sim p}[\log p_{\theta}(v)]$
+- [ ] B) Maximizing $\mathbb{E}_{v \sim p}[\log p_{\theta}(v)]$
 - [ ] C) Minimizing $\mathbb{E}_{v \sim p_{\theta}}[\log p(v)]$
 - [ ] D) Maximizing $\mathbb{E}_{v \sim p_{\theta}}[\log p(v)]$
 
@@ -156,7 +156,7 @@ Incorrect options:
 
 - [ ] A) $\log\left(\sum_{i=1}^{N} p_{\theta}(v_i)\right)$
 - [ ] B) $\sum_{i=1}^{N} \log p_{\theta}(v_i)$
-- [x] C) $\frac{1}{N} \sum_{i=1}^{N} \log p_{\theta}(v_i)$
+- [ ] C) $\frac{1}{N} \sum_{i=1}^{N} \log p_{\theta}(v_i)$
 - [ ] D) $\prod_{i=1}^{N} \log p_{\theta}(v_i)$
 
 **Answer:** C
@@ -181,7 +181,7 @@ Incorrect options:
 **Assume p_θ(y|x) = N(y; h_θ(x), σ²) with fixed σ² > 0 and i.i.d. data {(xᵢ, yᵢ)}. The MLE for θ is:**
 
 - [ ] A) $\arg\min_{\theta} \sum_{i=1}^{N} |y_i - h_{\theta}(x_i)|$
-- [x] B) $\arg\min_{\theta} \sum_{i=1}^{N} (y_i - h_{\theta}(x_i))^2$
+- [ ] B) $\arg\min_{\theta} \sum_{i=1}^{N} (y_i - h_{\theta}(x_i))^2$
 - [ ] C) $\arg\min_{\theta} \sum_{i=1}^{N} \log|y_i - h_{\theta}(x_i)|$
 - [ ] D) $\arg\max_{\theta} \sum_{i=1}^{N} (y_i - h_{\theta}(x_i))^2$
 
@@ -211,7 +211,7 @@ Incorrect options:
 **In the model of the previous question, if σ² is increased while kept fixed (not learned), then the MLE objective effectively:**
 
 - [ ] A) Gives more weight to squared errors
-- [x] B) Gives less weight to squared errors
+- [ ] B) Gives less weight to squared errors
 - [ ] C) Becomes independent of the squared errors
 - [ ] D) Becomes ℓ₁ loss
 
@@ -249,7 +249,7 @@ Incorrect options:
 **In binary classification with 0–1 loss, the Bayes-optimal decision rule predicts class 1 when:**
 
 - [ ] A) $p(x \mid y=1) > p(x \mid y=0)$
-- [x] B) $p(y=1 \mid x) > p(y=0 \mid x)$
+- [ ] B) $p(y=1 \mid x) > p(y=0 \mid x)$
 - [ ] C) $p(y=1) > p(y=0)$
 - [ ] D) $D_{KL}(p(\cdot \mid y=1) \mid\mid p(\cdot \mid y=0)) > 0$
 
@@ -276,7 +276,7 @@ Incorrect options:
 
 - [ ] A) Minimizing empirical risk $\hat{R}(h)$ always minimizes true risk $R(h)$ for any hypothesis class
 - [ ] B) True risk is computed from the finite training sample, while empirical risk uses the population distribution
-- [x] C) Empirical risk is an approximation to true risk using the sample average of losses
+- [ ] C) Empirical risk is an approximation to true risk using the sample average of losses
 - [ ] D) ERM replaces the loss function with KL divergence
 
 **Answer:** C

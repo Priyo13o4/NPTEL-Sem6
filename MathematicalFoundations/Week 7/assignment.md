@@ -14,7 +14,7 @@
 
 **Ridge objective: $J(w) = \text{MSE}(w) + \lambda\|w\|_2^2$. If the gradient of MSE w.r.t. $w_j$ is $g_j = 5$ & $w_j = -3$, $\lambda = 0.2$, what is $\partial J/\partial w_j$?**
 
-- [x] A) 3.8
+- [ ] A) 3.8
 - [ ] B) 5.6
 - [ ] C) 6.2
 - [ ] D) 4.4
@@ -66,7 +66,7 @@ The platform likely computed $5 - (-1.2) = 6.2$ by incorrectly **subtracting** t
 **One GD step for ridge on a single weight: $w^{(t+1)} = w^{(t)} - \eta(g + 2\lambda w^{(t)})$. Given $w^{(t)} = 2, g = 3, \lambda = 0.5, \eta = 0.1$. Compute $w^{(t+1)}$.**
 
 - [ ] A) 1.2
-- [x] B) 1.5
+- [ ] B) 1.5
 - [ ] C) 1.8
 - [ ] D) 2.5
 
@@ -116,7 +116,7 @@ $$w^{(t+1)} = 2 - 0.1 \times 5 = 2 - 0.5 = 1.5$$
 **Lasso objective (single weight): $J(w) = \frac{1}{2}(y - \hat{y})^2 + \lambda|w|$. Assume $w > 0$, gradient of squared-error part is $g = -0.7$ & $\lambda = 0.5$. What is $dJ/dw$?**
 
 - [ ] A) -1.2
-- [x] B) -0.2
+- [ ] B) -0.2
 - [ ] C) 0.2
 - [ ] D) 1.2
 
@@ -162,7 +162,7 @@ Notice that the penalty ($0.5$) nearly canceled the error gradient ($-0.7$). If 
 - [ ] A) 1.2
 - [ ] B) 2.0
 - [ ] C) 1.6
-- [x] D) 1.2
+- [ ] D) 1.2
 
 **Answer:** D
 
@@ -208,7 +208,7 @@ $$\frac{dJ}{dw} = g + \lambda(-1) = 1.6 + 0.4(-1) = 1.6 - 0.4 = 1.2$$
 
 **Logistic regression (cross-entropy). For one sample, $y = 1$, predicted $\hat{y} = 0.2$, and feature $x = 3$. What is $\partial L/\partial w$?**
 
-- [x] A) -2.4
+- [ ] A) -2.4
 - [ ] B) 2.4
 - [ ] C) -0.6
 - [ ] D) 0.6
@@ -262,7 +262,7 @@ The sigmoid derivative $\sigma'(z) = \sigma(z)(1 - \sigma(z))$ cancels perfectly
 **Logistic regression: $w_1 = -2$, $w_2 = 1$, $b = 4$. Decision boundary ($\hat{y} = 0.5$) satisfies $w^T x + b = 0$. What is the line equation for $x_2$ in terms of $x_1$?**
 
 - [ ] A) $x_2 = -2x_1 + 4$
-- [x] B) $x_2 = 2x_1 - 4$
+- [ ] B) $x_2 = 2x_1 - 4$
 - [ ] C) $x_2 = 2x_1 + 4$
 - [ ] D) $x_2 = -2x_1 - 4$
 
@@ -319,7 +319,7 @@ Let's check two points on this line:
 **For $w = [?, ?]^T$, $b = -10$ and point $x = [?, ?]^T$, compute distance $d = |w^T x + b| / \|w\|_2$.**
 
 - [ ] A) 0.2
-- [x] B) 0.4
+- [ ] B) 0.4
 - [ ] C) 0.6
 - [ ] D) 0.8
 
@@ -372,7 +372,7 @@ SVMs maximize the **margin**, which is the minimum distance from any training po
 **1D ridge regression: minimize $\sum_i (y_i - wx_i)^2 + \lambda w^2$. Given $\sum x_i^2 = 10$, $\sum x_i y_i = 14$ & $\lambda = 2$, what is $w_{\text{ridge}}$?**
 
 - [ ] A) 1.0
-- [x] B) 1.167
+- [ ] B) 1.167
 - [ ] C) -1.0
 - [ ] D) -1.167
 
@@ -437,7 +437,7 @@ The penalty shrinks the weight from 1.4 to 1.167. The penalty term $\lambda$ app
 
 - [ ] A) 2.4
 - [ ] B) 3.1
-- [x] C) 3.8
+- [ ] C) 3.8
 - [ ] D) 4.2
 
 **Answer:** C
@@ -498,7 +498,7 @@ $$\text{Penalty} = 2.4 + 1.4 = 3.8$$
 **Linear regression with Gaussian noise $\varepsilon \sim \mathcal{N}(0, \sigma^2)$. Given $\text{RSS} = \|y - X\hat{w}\|^2 = 40$ & $N = 20$. The MLE is $\hat{\sigma}^2 = \text{RSS}/N$. What is $\hat{\sigma}^2$?**
 
 - [ ] A) 1
-- [x] B) 2
+- [ ] B) 2
 - [ ] C) 4
 - [ ] D) 8
 

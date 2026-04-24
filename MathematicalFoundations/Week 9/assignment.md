@@ -15,7 +15,7 @@
 **An MLP takes an input vector of dimension 256 and has a hidden layer with 64 neurons. Assuming a fully connected layer with bias terms, how many trainable parameters are there in this first layer?**
 
 - [ ] A) 256×64 = 16384
-- [x] B) 256×64+64 = 16448
+- [ ] B) 256×64+64 = 16448
 - [ ] C) 256+64 = 320
 - [ ] D) 256×64+256 = 16640
 
@@ -68,7 +68,7 @@ where:
 
 - [ ] A) 28×28
 - [ ] B) 30×30
-- [x] C) 32×32
+- [ ] C) 32×32
 - [ ] D) 34×34
 
 **Answer:** C
@@ -128,7 +128,7 @@ When padding exactly compensates for the kernel size (preserving input spatial d
 
 - [ ] A) 32×3×3 = 288
 - [ ] B) 16×3×3 = 144
-- [x] C) 32×16×3×3 = 4608
+- [ ] C) 32×16×3×3 = 4608
 - [ ] D) 32×16 = 512
 
 **Answer:** C
@@ -188,7 +188,7 @@ Q1 tested fully-connected layers (2D weight matrices). This question shows that 
 
 - [ ] A) 0.8
 - [ ] B) 0.2
-- [x] C) 0.16
+- [ ] C) 0.16
 - [ ] D) 0.4
 
 **Answer:** C
@@ -249,7 +249,7 @@ During backpropagation, gradients are multiplied by $\sigma'(z)$ at each sigmoid
 **A neuron uses the ReLU activation function: ReLU(z) = max(0, z). What is the derivative of ReLU at a point where z = 3?**
 
 - [ ] A) 0
-- [x] B) 1
+- [ ] B) 1
 - [ ] C) 3
 - [ ] D) Undefined
 
@@ -313,7 +313,7 @@ This is why ReLU became the default activation for modern deep learning.
 **A standard RNN has input size 12 and hidden size 20. It uses weight matrices W_ih & W_hh, along with one bias vector of size 20. How many trainable parameters does it have?**
 
 - [ ] A) 620
-- [x] B) 660
+- [ ] B) 660
 - [ ] C) 640
 - [ ] D) 600
 
@@ -381,7 +381,7 @@ An RNN has 660, which is $2.5 \times$ more due to the $W_{hh}$ term. This extra 
 **In training an RNN, the gradient vector has norm ‖g‖₂ = 12, and the clipping threshold is c = 5. By what factor is the gradient scaled during gradient clipping?**
 
 - [ ] A) 12/5
-- [x] B) 5/12
+- [ ] B) 5/12
 - [ ] C) 5
 - [ ] D) 12
 
@@ -455,7 +455,7 @@ This prevents the destabilizing large update while maintaining the gradient dire
 **In an LSTM, suppose for one component of the state we have: f_t = 0.6, C_{t-1} = 2, i_t = 0.5, C̃_t = 4. What is the updated cell state value C_t for that component?**
 
 - [ ] A) 2.2
-- [x] B) 3.2
+- [ ] B) 3.2
 - [ ] C) 2.8
 - [ ] D) 1.2
 
@@ -537,7 +537,7 @@ Since $f_t$ is a gate output (value between 0 and 1) and **not a derivative**, i
 
 **A feature map of size 28×28 is passed through a max-pooling layer with kernel size 2×2 and stride 2. What is the output size?**
 
-- [x] A) 14×14
+- [ ] A) 14×14
 - [ ] B) 16×16
 - [ ] C) 12×12
 - [ ] D) 16×16 (duplicate)
@@ -603,7 +603,7 @@ This is a common pattern: $2 \times 2$ max-pooling with stride 2 **reduces spati
 
 - [ ] A) δ
 - [ ] B) δF′(x)
-- [x] C) δ(1+F′(x))
+- [ ] C) δ(1+F′(x))
 - [ ] D) 1+F′(x)
 
 **Answer:** C

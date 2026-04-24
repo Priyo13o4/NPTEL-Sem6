@@ -15,7 +15,7 @@
 **In AdaBoost, how are the data-point weights initialized at the beginning of training for a dataset of N samples?**
 
 - [ ] A) $w_i = 0$
-- [x] B) $w_i = \frac{1}{N}$, $i = 1, \ldots, N$
+- [ ] B) $w_i = \frac{1}{N}$, $i = 1, \ldots, N$
 - [ ] C) $w_i = \frac{1}{2N}$
 - [ ] D) $w_i = y_i$
 
@@ -88,7 +88,7 @@ Both answers are mathematically correct within their respective frameworks. Your
 
 - [ ] A) The number of training samples
 - [ ] B) The depth of the weak learner
-- [x] C) The classifier weight $\alpha_m$
+- [ ] C) The classifier weight $\alpha_m$
 - [ ] D) The feature dimension
 
 **Answer:** C ✅
@@ -149,7 +149,7 @@ The relationship is **monotonic and monotonically decreasing**: better error →
 
 - [ ] A) $\sum_{i=1}^{n} y_i \log \hat{y}_i$
 - [ ] B) $\sum_{i=1}^{n} \exp(-y_i h(x_i))$
-- [x] C) $\frac{1}{n}\sum_{i=1}^{n}\|x_i - \hat{x}_i\|_2^2$
+- [ ] C) $\frac{1}{n}\sum_{i=1}^{n}\|x_i - \hat{x}_i\|_2^2$
 - [ ] D) $\max_i \|x_i - \hat{x}_i\|_2$
 
 **Answer:** C ✅
@@ -209,7 +209,7 @@ The autoencoder works by:
 **In an autoencoder, the model structure is best described as:**
 
 - [ ] A) Classifier followed by softmax
-- [x] B) Encoder $E_\phi(x)$ to latent code $z$, then decoder $D_\theta(z)$ to reconstruction $\hat{x}$
+- [ ] B) Encoder $E_\phi(x)$ to latent code $z$, then decoder $D_\theta(z)$ to reconstruction $\hat{x}$
 - [ ] C) A single linear regression model
 - [ ] D) A decision tree with two leaves
 
@@ -287,7 +287,7 @@ The **bottleneck** (latent code $z$) forces compression. Because $d_z \ll d_x$, 
 **The first principal component in PCA is given by:**
 
 - [ ] A) The eigenvector corresponding to the smallest eigenvalue of the covariance matrix
-- [x] B) The eigenvector corresponding to the largest eigenvalue of the covariance matrix
+- [ ] B) The eigenvector corresponding to the largest eigenvalue of the covariance matrix
 - [ ] C) The mean vector of the data
 - [ ] D) The vector of all ones
 
@@ -366,7 +366,7 @@ $$\text{Var}(\text{1PC}) = \lambda_1 > \text{Var}(\text{2PC}) = \lambda_2 > \cdo
 **In PCA, if the projected representation is z = Wx, then the optimization objective is to:**
 
 - [ ] A) Minimize projected variance
-- [x] B) Maximize projected variance subject to a norm constraint
+- [ ] B) Maximize projected variance subject to a norm constraint
 - [ ] C) Maximize reconstruction error
 - [ ] D) Minimize the number of samples
 
@@ -448,7 +448,7 @@ This is equivalent to the variance maximization objective (by the theory of orth
 **In k-means clustering, each data point $x_i$ is assigned to cluster m based on:**
 
 - [ ] A) Maximum inner product with $\mu_m$
-- [x] B) Minimum squared Euclidean distance to $\mu_m$
+- [ ] B) Minimum squared Euclidean distance to $\mu_m$
 - [ ] C) Maximum determinant of covariance
 - [ ] D) Minimum class entropy
 
@@ -508,7 +508,7 @@ K-means produces **hard assignments**: each point belongs to exactly one cluster
 **In the limit where each Gaussian component in a mixture has covariance $\sigma^2 I$ with $\sigma \to 0$, the soft assignments tend toward:**
 
 - [ ] A) Uniform probabilities
-- [x] B) Dirac-delta-like hard assignments
+- [ ] B) Dirac-delta-like hard assignments
 - [ ] C) Random assignments
 - [ ] D) Zero vectors
 
@@ -583,7 +583,7 @@ $$c_i = \arg\min_{m=1,\ldots,K} \|x_i - \mu_m\|_2^2$$
 **In a GMM-based clustering setup, the posterior $P_\theta(z|x) = P_\theta(x|z)P_\theta(z) / P_\theta(x)$ is interpreted as:**
 
 - [ ] A) A hard cluster label only
-- [x] B) A distribution over cluster assignments given x
+- [ ] B) A distribution over cluster assignments given x
 - [ ] C) The covariance matrix
 - [ ] D) The reconstruction error
 
@@ -664,7 +664,7 @@ The E-step of the EM algorithm computes the posterior $P_\theta(z | x)$ for all 
 **The main purpose of a validation set in cross-validation is to:**
 
 - [ ] A) Train the final model parameters
-- [x] B) Choose hyperparameters
+- [ ] B) Choose hyperparameters
 - [ ] C) Replace the test set
 - [ ] D) Increase the feature dimension
 

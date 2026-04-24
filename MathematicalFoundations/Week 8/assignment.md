@@ -15,7 +15,7 @@
 **A feedforward neural network is described as:**
 
 - [ ] A) A single linear map $w^T x$
-- [x] B) A composite function with alternating linear and non-linear mappings
+- [ ] B) A composite function with alternating linear and non-linear mappings
 - [ ] C) A probabilistic graphical model with latent variables
 - [ ] D) A nearest neighbour method
 
@@ -68,7 +68,7 @@ Read this carefully: input $x$ → linear → sigmoid → linear → sigmoid →
 
 - [ ] A) Only linear
 - [ ] B) Unbounded and discontinuous
-- [x] C) Bounded, continuous, and non-constant
+- [ ] C) Bounded, continuous, and non-constant
 - [ ] D) A probability density function
 
 **Answer:** C
@@ -138,7 +138,7 @@ With sigmoid, tanh, or ReLU, the network gains universal approximation power. An
 **The unconstrained objective equivalent to soft-margin SVM is:**
 
 - [ ] A) $\min_{w,b} \|w\|_2^2 + C \sum_i \|x_i\|_2^2$
-- [x] B) $\min_{w,b} \|w\|_2^2 + C \sum_i \max(0, 1 - y_i(w^\top x_i + b))$
+- [ ] B) $\min_{w,b} \|w\|_2^2 + C \sum_i \max(0, 1 - y_i(w^\top x_i + b))$
 - [ ] C) $\min_{w,b} \sum_i (y_i - w^\top x_i)^2$
 - [ ] D) $\min_{w,b} \sum_i \mathbf{1}[y_i \neq \text{sign}(w^\top x_i + b)]$
 
@@ -203,7 +203,7 @@ In the constrained form, $\xi_i = \max(0, 1 - y_i(w^T x_i + b))$. The hinge loss
 
 - [ ] A) $\phi(x_i)$
 - [ ] B) $\phi(x_j)$
-- [x] C) $k(x_i, x_j)$
+- [ ] C) $k(x_i, x_j)$
 - [ ] D) $\|x_i - x_j\|$
 
 **Answer:** C
@@ -286,7 +286,7 @@ With kernel: $f(x) = \sum_i \alpha_i y_i k(x_i, x) + b$
 
 - [ ] A) $k(x, z) = \exp(-\gamma\|x - z\|^2)$
 - [ ] B) $k(x, z) = \tanh(ax^T z + b)$
-- [x] C) $k(x, z) = (1 + x^\top z)^p$
+- [ ] C) $k(x, z) = (1 + x^\top z)^p$
 - [ ] D) $k(x, z) = \|x\| + \|z\|$
 
 **Answer:** C
@@ -348,7 +348,7 @@ The $(1 + x^T z)$ instead of just $(x^T z)^p$ includes **constant and linear ter
 
 - [ ] A) Diagonal
 - [ ] B) Invertible for all datasets
-- [x] C) Positive semidefinite (PSD)
+- [ ] C) Positive semidefinite (PSD)
 - [ ] D) Orthogonal
 
 **Answer:** C
@@ -420,7 +420,7 @@ $k(x, z) = \tanh(ax^T z + b)$ is **not always PSD**. Depending on $a, b$, and th
 
 - [ ] A) The distance of $x_i$ from the origin
 - [ ] B) The margin width $2/\|w\|$
-- [x] C) The degree of margin violation / misclassification
+- [ ] C) The degree of margin violation / misclassification
 - [ ] D) The probability that $y_i = 1$
 
 **Answer:** C
@@ -497,7 +497,7 @@ $$\xi_i = \max(0, 1 - y_i(w^T x_i + b))$$
 
 - [ ] A) $w = \sum_i x_i$
 - [ ] B) $w = \sum_i \alpha_i x_i$
-- [x] C) $w = \sum_i \alpha_i y_i x_i$
+- [ ] C) $w = \sum_i \alpha_i y_i x_i$
 - [ ] D) $w = \sum_i y_i x_i$
 
 **Answer:** C
@@ -567,7 +567,7 @@ This is incredibly efficient: compute kernel similarities only with support vect
 
 - [ ] A) $(y_i - h(x_i))^2$
 - [ ] B) $\log(1 + \exp(-y_i h(x_i)))$
-- [x] C) $\max(0, 1 - y_i h(x_i))$
+- [ ] C) $\max(0, 1 - y_i h(x_i))$
 - [ ] D) $-y_i h(x_i)$
 
 **Answer:** C
@@ -656,7 +656,7 @@ The margin in SVM is the distance where $y_i h(x_i) = 1$. Points satisfying this
 **In the backprop notation, the pre-activation of neuron $j$ in layer $\ell$ is typically denoted by:**
 
 - [ ] A) $a_j^{(\ell)}$
-- [x] B) $z_j^{(\ell)}$
+- [ ] B) $z_j^{(\ell)}$
 - [ ] C) $w_{jk}^{(\ell)}$
 - [ ] D) $\delta_j^{(\ell)}$
 

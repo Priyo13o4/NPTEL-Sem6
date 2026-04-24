@@ -15,7 +15,7 @@
 **A Bernoulli parameter θ has prior θ ∼ Beta(α, β) with α = 3, β = 5. You observe n = 10 trials with k = 7 successes. Using the MAP formula θ_MAP = (k + α − 1) / (n + α + β − 2), what is θ_MAP?**
 
 - [ ] A) 0.689
-- [x] B) 0.562
+- [ ] B) 0.562
 - [ ] C) 0.692
 - [ ] D) 0.750
 
@@ -51,7 +51,7 @@ Incorrect options:
 **A coin is tossed n = 8 times and comes up heads k = 6 times. Prior is θ ∼ Beta(2, 2). Compute θ_ML = k/n and θ_MAP = (k + α − 1) / (n + α + β − 2). Which pair is correct?**
 
 - [ ] A) (0.75, 0.75)
-- [x] B) (0.75, 0.7)
+- [ ] B) (0.75, 0.7)
 - [ ] C) (0.75, 0.667)
 - [ ] D) (0.80, 0.714)
 
@@ -91,7 +91,7 @@ Incorrect options:
 
 **Posterior parameters for Beta-Bernoulli. Prior: θ ∼ Beta(α, β) with α = 4, β = 6. Data: n = 20 Bernoulli trials with k = 9 successes. What is the posterior distribution?**
 
-- [x] A) Beta(13, 17)
+- [ ] A) Beta(13, 17)
 - [ ] B) Beta(9, 11)
 - [ ] C) Beta(4, 6)
 - [ ] D) Beta(24, 26)
@@ -129,7 +129,7 @@ Incorrect options:
 **You observe n = 4 Bernoulli trials and all are successes (k = 4). Prior is Beta(2, 5). Compute θ_ML and θ_MAP.**
 
 - [ ] A) $\theta_{ML} = 1, \theta_{MAP} = 1$
-- [x] B) $\theta_{ML} = 1, \theta_{MAP} = 5/9$
+- [ ] B) $\theta_{ML} = 1, \theta_{MAP} = 5/9$
 - [ ] C) $\theta_{ML} = 4/5, \theta_{MAP} = 4/9$
 - [ ] D) $\theta_{ML} = 4/5, \theta_{MAP} = 4/9$
 
@@ -172,7 +172,7 @@ Incorrect options:
 
 **Parzen window: volume in d dimensions. In Parzen window estimation with a hypercube window of side length h, the region volume is V = h^d. If d = 3, h = 0.2, what is V?**
 
-- [x] A) 0.008
+- [ ] A) 0.008
 - [ ] B) 0.040
 - [ ] C) 0.060
 - [ ] D) 0.200
@@ -209,7 +209,7 @@ Incorrect options:
 **You have n = 500 samples in R². A square Parzen window of side h = 0.1 is centered at x. If k = 8 samples fall inside the window, estimate p(x) using p(x) = k / (n · h^d) (d = 2).**
 
 - [ ] A) 0.8
-- [x] B) 1.6
+- [ ] B) 1.6
 - [ ] C) 3.2
 - [ ] D) 8.0
 
@@ -256,7 +256,7 @@ Incorrect options:
 
 - [ ] A) 0.05
 - [ ] B) 0.10
-- [x] C) 0.20
+- [ ] C) 0.20
 - [ ] D) 0.50
 
 **Answer:** C
@@ -296,7 +296,7 @@ Incorrect options:
 **In a k-NN classifier, within the chosen volume around x you captured k = 15 neighbors. Counts by class are: K₁ = 6, K₂ = 5, K₃ = 4. Using p(yᵢ|x) = Kᵢ/k, what is the value of p(y₂|x)?**
 
 - [ ] A) 4/15
-- [x] B) 5/15
+- [ ] B) 5/15
 - [ ] C) 6/15
 - [ ] D) 9/15
 
@@ -339,7 +339,7 @@ Incorrect options:
 **A binary k-NN classifier uses k = 11. Around a test point x, the counts are K₁ = 5, K₂ = 6. Using p(yᵢ|x) = Kᵢ/k and the Bayes decision rule, what is the predicted class?**
 
 - [ ] A) Class 1
-- [x] B) Class 2
+- [ ] B) Class 2
 - [ ] C) Tie (random)
 - [ ] D) Cannot be determined without priors
 
@@ -385,7 +385,7 @@ Incorrect options:
 
 - [ ] A) It becomes half
 - [ ] B) It becomes 2×
-- [x] C) It becomes 4×
+- [ ] C) It becomes 4×
 - [ ] D) It stays the same
 
 **Answer:** C
